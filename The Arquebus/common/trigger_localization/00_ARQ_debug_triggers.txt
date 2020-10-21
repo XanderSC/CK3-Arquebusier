@@ -1,0 +1,6 @@
+﻿current_date_greater_or_equal = {
+	global = current_date_greater_or_equal_trigger
+}
+current_year_greater_or_equal = {
+	global = current_year_greater_or_equal_trigger
+}

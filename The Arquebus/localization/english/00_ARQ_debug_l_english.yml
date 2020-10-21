@@ -1,0 +1,13 @@
+﻿l_english:
+
+ # CURRENT_DATE/YEAR EXTRA LOC
+ current_date_greater_or_equal_trigger:0 "The current date is $COMPARATOR$ $NUM$"
+ NOT_current_date_greater_or_equal_trigger:0 "The current date is not $COMPARATOR$ $NUM$"
+ current_year_greater_or_equal_trigger:0 "The current year is $COMPARATOR$ $NUM$"
+ NOT_current_year_greater_or_equal_trigger:0 "The current year is not $COMPARATOR$ $NUM$"
+ 
+ current_date_trigger:0 "The current date is $NUM$"
+ NOT_current_date_trigger:0 "The current date is not $NUM$"
+ current_year_trigger:0 "The current year is $NUM$"
+ NOT_current_year_trigger:0 "The current year is not $NUM$"
+ 
