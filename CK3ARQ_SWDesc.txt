@@ -1,14 +1,25 @@
 [h1]Overview[/h1]
-Adds the "Arquebus" to the game as a late medieval era tech [b]available to all cultures[/b]. 
+Adds the "Arquebus" to the game as a late medieval era innovation [b]acquirable by all cultures[/b]. Once unlocked you can then recruit the "Arquebusier" MaA regiment for a reasonable cost.
 
 The downside to this awesome firepower? It's locked behind a set date for semi-historical accuracy. You can find it under "Cultural and Regional" innovations.
 
-The unit stats are pretty buffed for a ranged unit so if any changes are necessary they'll be made, for the sake of balance.
+The unit stats are adequately buffed for a ranged unit so if any changes are necessary they'll be made, for the sake of balance.
+
+[i](Ignore the 'Not available' message, just means it isn't unlocked yet!)[/i]
 
 [h1]Mod Compatibility[/h1]
 There shouldn't be any conflicts with mods at all as the files are all unique. 
 
 As long as your modifications don't alter the localization strings for the triggers [b]"current_date/current_year"[/b], everything should appear as intended.
+
+[h1]Planned Additions[/h1]
+Currently, the mod is functioning in what can be considered a [i]final[/i] state (barring any patch/balance fixes). However, there are definitely future plans in mind!
+[list]
+[*]Add a chain of events which leads up to the acquisition of gunpowder.
+[*]Flavorful events that improve the abilities of your Arquebusiers.
+[*]More localization for different languages.
+[/list]
+There's no set date on when these things will be introduced but I do hope to get these extras added in eventually!
 
 [h1]Known Issues[/h1]
 [list]
