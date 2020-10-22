@@ -4,7 +4,7 @@
 #   SpectreTM  #
 ################
 
-# VERSION: "1.0a" #
+# VERSION: "1.0b" #
 
 This modification was made for the simple purpose of introducing the late medieval era invention of the "Arquebus", which was first used in Europe and the Middle East by the Ottomans towards the middle part of the 15th century.
 
@@ -27,6 +27,7 @@ This modification was made for the simple purpose of introducing the late mediev
 		- Emilio Rodriguez (Artstation) #Men-At-Arms artwork
 		- Hogoul Kim (Artstation) #Thumbnail artwork
 		- Wastort (DeviantArt) #Innovation artwork
+		- Delnar_Ersike (Discord/CK3 Forums) #Improved Icon artwork
 	
 	Likewise, any mod author is free to use this modification as part of their mod as part of a compatibility patch or integration, as long as CREDIT is given.
 	

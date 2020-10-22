@@ -1,0 +1,39 @@
+[h1]Overview[/h1]
+Adds the "Arquebus" to the game as a late medieval era tech [b]available to all cultures[/b]. 
+
+The downside to this awesome firepower? It's locked behind a set date for semi-historical accuracy. You can find it under "Cultural and Regional" innovations.
+
+The unit stats are pretty buffed for a ranged unit so if any changes are necessary they'll be made, for the sake of balance.
+
+[h1]Mod Compatibility[/h1]
+There shouldn't be any conflicts with mods at all as the files are all unique. 
+
+As long as your modifications don't alter the localization strings for the triggers [b]"current_date/current_year"[/b], everything should appear as intended.
+
+[h1]Known Issues[/h1]
+[list]
+[*]With running saves the innovation may not appear properly on the Cultural Innovations screen. (Please see [b]Troubleshooting[/b] for a possible fix)
+[/list]
+
+[h1]Troubleshooting[/h1]
+[b]**YOU MAY NEED TO START A NEW SAVE**[/b]
+In order for this innovation to appear properly you might need to start a new save, blame PDX for not making them seamlessly integrate. Sorry folks!!
+
+[b]**POSSIBLE WORKAROUND**[/b]
+A quick workaround to solve this issue, with running saves, is to open your game with the [b]debug_mode[/b] option enabled in the launcher and unlock the innovation via console with this command:
+[b]"discover_innovation innovation_arquebus"[/b]
+
+This will unlock the ability to recruit the MAA regiment for the Arquebusier. The only drawback to doing this is you don't get the artificial time-lock if you force unlock it before the intended year.
+
+[b][i]*If I'm wrong, please leave a note in the comments! I haven't had the ability to source a lot of outside testing for this!*[/i][/b]
+
+[h1]Credits[/h1]
+Credit due to all artists for their respective artwork, it is not my own nor do I intend to pass it off as such. They are listed below in order:
+
+1. [b]Emilio Rodriguez[/b] (Artstation) - [b][i]MaA artwork[/i][/b]
+2. [b]Hogoul Kim[/b] (Artstation) - [b][i]Thumbnail artwork[/i][/b]
+3. [b]Wastort[/b] (DeviantArt) - [b][i]Innovation artwork[/i][/b]
+4. [b]Delnar_Ersike[/b] (CK3 Forums/Discord) - [b][i]Improved MaA icon[/i][/b]
+
+[b][u]Final Notes[/u][/b]
+As this is my first published mod, and more of a proof of concept, any questions or suggestions are welcome! So feel free to message me!
