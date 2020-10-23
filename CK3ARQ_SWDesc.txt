@@ -34,8 +34,6 @@ A quick workaround to solve this issue, with running saves, is to open your game
 
 This will unlock the ability to recruit the MAA regiment for the Arquebusier. The only drawback to doing this is you don't get the artificial time-lock if you force unlock it before the intended year.
 
-[b][i]*If I'm wrong, please leave a note in the comments! I haven't had the ability to source a lot of outside testing for this!*[/i][/b]
-
 [h1]Credits[/h1]
 Credit due to all artists for their respective artwork, it is not my own nor do I intend to pass it off as such. They are listed below in order:
 
