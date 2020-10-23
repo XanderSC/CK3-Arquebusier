@@ -1,6 +1,7 @@
-version="1.1"
+version="1.2"
 tags={
 	"Warfare"
+	"Historical"
 }
 picture="thumbnail.png"
 name="The Arquebus"

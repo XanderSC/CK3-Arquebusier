@@ -1,0 +1,214 @@
+﻿
+namespace = improved_arquebus
+
+##################################################
+
+### Improved Arquebus Major Decision Events
+# by SpectreTM
+
+# 0001 - Beginning Arquebus improvements
+# 0002 - Collecting your improvement
+# 000X - X
+
+##################################################
+
+##################################################
+# Improving the Arquebus - Decision Chain        #
+##################################################
+
+##################################################
+#             Improving the Arquebus             #
+##################################################
+improved_arquebus.0001 = { #Beginning Arquebus improvements
+	type = character_event
+	title = improved_arquebus.0001.t
+	desc = improved_arquebus.0001.desc
+	theme = stewardship
+	left_portrait = {
+		character = ROOT
+		animation = personality_bold
+	}
+	
+	immediate = {
+		create_story = commission_epic_story
+		random_owned_story = {
+			limit = {
+				story_type = commission_epic_story
+			}
+			save_scope_as = story
+		}
+	}
+	
+	option = {
+		#Contract Master Artificer to work for you
+		name = improved_arquebus.0001.a
+		
+		scope:story = {
+			change_variable = {
+				name = final_outcome_chance
+				add = 20
+			}
+		}
+		
+		add_character_modifier = {
+			modifier = arquebus_employed_artificer_modifier
+			years = 5
+		}
+		
+		trigger = { gold >= medium_gold_value }
+		show_as_unavailable = {
+			short_term_gold < medium_gold_value
+		}
+		
+		remove_short_term_gold = medium_gold_value
+		stress_impact = {
+			greedy = medium_stress_impact_gain
+		}
+		
+		#Get improvement fast
+		hidden_effect = {
+			trigger_event = {
+				id = improved_arquebus.0002
+				days = { 730 1095 }
+				
+			}
+		}
+		
+		ai_chance = {
+			base = 50
+			ai_value_modifier = {
+				ai_greed = 0.5
+			}
+		}
+	}
+	
+	option = {
+		#Employ local craftsmen
+		name = improved_arquebus.0001.b
+		
+		scope:story = {
+			change_variable = {
+				name = final_outcome_chance
+				add = 10
+			}
+		}
+		
+		trigger = { gold >= minor_gold_value }
+		show_as_unavailable = {
+			short_term_gold < minor_gold_value
+		}
+		
+		remove_short_term_gold = minor_gold_value
+		stress_impact = {
+			greedy = minor_stress_impact_gain
+		}
+		
+		scope:target_county = {
+			add_county_modifier = {
+				modifier = arquebus_employed_locals_modifier
+				years = 5
+			}
+		}
+		
+		#Get improvement 
+		hidden_effect = {
+			trigger_event = {
+				id = improved_arquebus.0002
+				days = { 1460 1825 }
+				
+			}
+		}
+		
+		ai_chance = {
+			base = 50
+			ai_value_modifier = {
+				ai_energy = 0.5
+				ai_boldness = 0.25
+			}
+		}
+	}
+	
+	option = {
+		#Do nothing for now
+		name = improved_arquebus.0001.c
+		
+		ai_chance = {
+			base = 0
+		}
+	}
+}
+
+improved_arquebus.0002 = { #Collecting your improvement
+	type = character_event
+	title = improved_arquebus.0002.t
+	desc = improved_arquebus.0002.desc
+	theme = martial
+	left_portrait = {
+		character = ROOT
+		animation = personality_bold
+	}
+	right_portrait = {
+		character = scope:artificer
+		animation = personality_rational
+	}
+	
+	immediate = {
+		create_character = {
+			employer = root
+			gender_female_chance = {
+				if = {
+					limit = { root.faith = { has_doctrine = doctrine_gender_female_dominated } }
+					add = 80
+				}
+				else_if = {
+					limit = { root.faith = { has_doctrine = doctrine_gender_male_dominated } }
+					add = 20
+				}
+				else = {
+					add = 50
+				}
+			}
+			age = { 35 50 }
+			learning = { 8 12 }
+			stewardship = { 8 10 }
+			trait = education_stewardship_3
+			faith = root.faith
+			culture = root.culture
+			save_scope_as = artificer
+		}
+	}
+	
+	option = {
+		name = improved_arquebus.0002.a
+		
+		duel = {
+			skill = martial
+			value = decent_skill_rating
+			15 = {
+				desc = improved_arquebus.0002.a.success_good
+				add_character_modifier = {
+					modifier = arquebus_good_imp_modifier
+					days = 9125
+				}
+			}
+			10 = {
+				desc = improved_arquebus.0002.a.success_fair
+				add_character_modifier = {
+					modifier = arquebus_fair_imp_modifier
+					days = 9125
+				}
+			}
+			5 = {
+				desc = improved_arquebus.0002.a.success_critical
+				add_character_modifier = {
+					modifier = arquebus_excellent_imp_modifier
+					days = 9125
+				}
+			}
+		}
+		
+		hidden_effect = {
+			add_character_flag = flag_improved_arquebus
+		}
+	}
+}

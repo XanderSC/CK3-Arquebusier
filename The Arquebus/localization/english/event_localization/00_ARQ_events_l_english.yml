@@ -1,0 +1,16 @@
+﻿l_english:
+
+ # ARQUEBUS IMPROVEMENT EVENT CHAIN #
+ improved_arquebus.0001.t:0 "Necessary Improvements"
+ improved_arquebus.0001.desc:0 "Your Engineers will attempt to improve the Arquebus..."
+ improved_arquebus.0001.a:0 "Contract the finest Artificers!"
+ improved_arquebus.0001.b:0 "Employ the Local Craftsmen!"
+ improved_arquebus.0001.c:0 "Maybe later..."
+ 
+ improved_arquebus.0002.t:0 "An Elegant Weapon"
+ improved_arquebus.0002.desc:0 "Placeholder!"
+ improved_arquebus.0002.a:0 "At last!"
+ improved_arquebus.0002.a.success_critical:0 "Remarkable Improvements"
+ improved_arquebus.0002.a.success_good:0 "Solid Upgrades"
+ improved_arquebus.0002.a.success_fair:0 "Effective Changes"
+ 
