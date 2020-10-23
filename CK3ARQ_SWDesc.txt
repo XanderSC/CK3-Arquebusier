@@ -1,11 +1,11 @@
 [h1]Overview[/h1]
-Adds the "Arquebus" to the game as a late medieval era innovation [b]acquirable by all cultures[/b]. Once unlocked you can then recruit the "Arquebusier" MaA regiment for a reasonable cost.
+Adds the [b]Arquebus[/b] to the game as a late medieval era innovation [b][i][u]acquirable by all cultures[/u][/i][/b]. Once unlocked you can then recruit the [b]Arquebusier[/b] MaA regiment for a reasonable cost.
 
-The downside to this awesome firepower? It's locked behind a set date for semi-historical accuracy. You can find it under "Cultural and Regional" innovations.
+The downside to this awesome firepower? It's locked behind a set date for semi-historical accuracy. You can find it under [i][u]Cultural and Regional[/u][/i] innovations.
 
 The unit stats are adequately buffed for a ranged unit so if any changes are necessary they'll be made, for the sake of balance.
 
-[i](Ignore the 'Not available' message, just means it isn't unlocked yet!)[/i]
+[b][i](Ignore the 'Not available' message, just means it isn't unlocked yet!)[/i][/b]
 
 [h1]Mod Compatibility[/h1]
 There shouldn't be any conflicts with mods at all as the files are all unique. 
