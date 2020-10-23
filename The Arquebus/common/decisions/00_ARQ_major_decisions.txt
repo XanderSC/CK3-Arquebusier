@@ -12,6 +12,8 @@
 			has_character_flag = flag_improved_arquebus
 		}
 	}
+	
+	cooldown = { days = 1825 }
 
 	is_valid = {
 		prestige_level >= 3
@@ -19,9 +21,7 @@
 	}
 
 	is_valid_showing_failures_only = {
-		is_capable_adult = yes
-		is_at_war = no
-		is_independent_ruler = yes
+		is_available = yes
 	}
 
 	effect = {

@@ -37,6 +37,20 @@ improved_arquebus.0001 = { #Beginning Arquebus improvements
 			}
 			save_scope_as = story
 		}
+		random_held_title = {
+			limit = {
+				tier = tier_county
+				county_opinion >= 0
+			}
+			weight = {
+				base = 1
+				modifier = {
+					add = 100
+					county_opinion >= 50
+				}
+			}
+			save_scope_as = target_county
+		}
 	}
 	
 	option = {
