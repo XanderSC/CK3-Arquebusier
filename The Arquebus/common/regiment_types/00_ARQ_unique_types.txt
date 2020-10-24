@@ -8,13 +8,16 @@ arquebusier = {
 	type = archers
 
 	damage = 75
-	toughness = 10
+	toughness = 15
 	pursuit = 0
 	screen = 5
 	
 	terrain_bonus = {
 		plains = { damage = 10 toughness = 5 }
+		hills = { damage = 5 toughness = 5 }
+		drylands = { damage = 5 toughness = 5 }
 		forest = { damage = -5 toughness = -5 }
+		mountains = { damage = -5 toughness = -5 }
 	}
 	
 	counters = {

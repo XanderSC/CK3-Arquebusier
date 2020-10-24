@@ -26,3 +26,21 @@ arquebus_employed_artificer_modifier = {
 	icon = economy_negative
 	tax_mult = -0.05
 }
+
+arquebus_normal_progress_modifier = {
+	icon = economy_positive
+	stewardship = 1
+	tax_mult = 0.025
+}
+
+arquebus_good_progress_modifier = {
+	icon = economy_positive
+	stewardship = 1
+	tax_mult = 0.05
+}
+
+arquebus_bad_progress_modifier = {
+	icon = economy_negative
+	stewardship = -1
+	tax_mult = -0.05
+}

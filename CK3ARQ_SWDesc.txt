@@ -17,7 +17,12 @@ Currently, the mod is functioning in what can be considered a [i]final[/i] state
 There's no set date on when these things will be introduced but I do hope to get these extras added in eventually!
 
 [h1]Mod Compatibility[/h1]
-There shouldn't be any conflicts with mods at all as the files are all unique. 
+There shouldn't be any conflicts with any mods not listed below, as the files are all unique.
+ 
+[h3]Possible Conflicts[/h3]
+[list]
+[*][url=https://steamcommunity.com/workshop/filedetails/?id=2238122607]Dieu et Mon Droit[/url] - There may be minor compatibility issues with DMD as it weighs MAA regiments using it's own unique balance system. [i](You may not see the same system applied to the Arquebusier if used together)[/i]
+[/list]
 
 [h1]Known Issues[/h1]
 [list]

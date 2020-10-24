@@ -36,7 +36,7 @@ innovation_arquebus = {
 	icon = @arquebus
 	
 	can_progress = {
-		required_year_greater_or_equal_trigger = { YEAR = 1385 }
+		required_year_greater_or_equal_trigger = { YEAR = 1375 }
 	}
 
 	unlock_maa = arquebusier
