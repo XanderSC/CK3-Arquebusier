@@ -13,7 +13,7 @@
  improved_arquebus.0001.c.flavor:0 "Perhaps we'll revisit this idea at a later time."
  
  improved_arquebus.0002.t:0 "In Anticipation..."
- improved_arquebus.0002.desc:0 "It's been quite a few months now since you've tasked your Marshal with the Arquebus project. What could they possibly be doing that warrants no update to their liege?\n\nUpon arriving to the Armory you find your Marshal quite preoccupied managing an entirely chaotic workshop. They begin to complain to you about a lack of manpower, funds to hire more servants for the work and even their day!\n\nYou almost immediately drown out the noise from your Marshal, far more concerned with how you can improve progress..."
+ improved_arquebus.0002.desc:0 "It's been quite a few months now since you've tasked your Marshal with the Arquebus project. What could they possibly be doing that warrants no update to their liege?\n\nUpon arriving to the Armory you find your Marshal quite preoccupied managing an entirely chaotic workshop. They begin to complain to you about a lack of manpower, lack of funds to hire more servants for the work and even their day!\n\nYou almost immediately drown out the noise from your Marshal, far more concerned with how you can improve progress..."
  improved_arquebus.0002.a:0 "More money, less problems!"
  improved_arquebus.0002.a.flavor:0 "You once heard that money can solve anything..."
  improved_arquebus.0002.a.success:0 "Swift Progress"

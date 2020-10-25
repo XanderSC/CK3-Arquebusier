@@ -142,43 +142,12 @@ improved_arquebus.0002 = { #Progress update early
 	desc = improved_arquebus.0002.desc
 	theme = martial
 	left_portrait = {
-		character = scope:crafter
+		character = cp:councillor_marshal
 		animation = personality_rational
 	}
 	right_portrait = {
 		character = ROOT
 		animation = personality_cynical
-	}
-	
-	immediate = {
-		if = {
-			limit = {
-				is_ai = no
-			}
-			create_character = {
-				employer = root
-				gender_female_chance = {
-					if = {
-						limit = { root.faith = { has_doctrine = doctrine_gender_female_dominated } }
-						add = 80
-					}
-					else_if = {
-						limit = { root.faith = { has_doctrine = doctrine_gender_male_dominated } }
-						add = 20
-					}
-					else = {
-						add = 50
-					}
-				}
-				age = { 28 42 }
-				learning = { 8 12 }
-				stewardship = { 8 10 }
-				trait = education_stewardship_3
-				faith = root.faith
-				culture = root.culture
-				save_scope_as = crafter
-			}
-		}
 	}
 	
 	option = {

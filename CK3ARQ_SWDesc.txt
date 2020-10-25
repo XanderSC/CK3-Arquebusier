@@ -7,11 +7,18 @@ The unit stats are adequately buffed for a ranged unit so if any changes are nec
 
 [b][i](Ignore the 'Not available' message, just means it isn't unlocked yet!)[/i][/b]
 
+[h1]Features[/h1]
+Although small, this mod packs a mighty punch in the way of flavor for your game. The fluff provided isn't extensive but it is, hopefully, a welcome addition.
+[list]
+[*]Unique MaA regiment, the [b]Arquebusier[/b], which is a strong ranged unit wielding the power of gunpowder!
+[*][b]Improve the effectiveness[/b] of your Arquebusiers with a decision, and event chain, to make it happen!
+[*]Gunpowder?! In the Middle Ages?! Not to worry, this powerful innovation cannot be unlocked until [b]1375[/b]!
+[/list]
+
 [h1]Planned Additions[/h1]
 Currently, the mod is functioning in what can be considered a [i]final[/i] state (barring any patch/balance fixes). However, there are definitely future plans in mind!
 [list]
 [*]Add a chain of events which leads up to the acquisition of gunpowder.
-[*]Flavorful events that improve the abilities of your Arquebusiers.
 [*]More localization for different languages.
 [/list]
 There's no set date on when these things will be introduced but I do hope to get these extras added in eventually!
@@ -34,6 +41,7 @@ There shouldn't be any conflicts with any mods not listed below, as the files ar
 In order for this innovation to appear properly you might need to start a new save, blame PDX for not making them seamlessly integrate. Sorry folks!!
 
 [b]**POSSIBLE WORKAROUND**[/b]
+[i][u][This fix may or may not work][/u][/i]
 A quick workaround to solve this issue, with running saves, is to open your game with the [b]debug_mode[/b] option enabled in the launcher and unlock the innovation via console with this command:
 [b]"discover_innovation innovation_arquebus"[/b]
 
