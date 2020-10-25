@@ -1,9 +1,12 @@
 ﻿l_english:
  #Reasons
 
- #Cultural MaA
- arquebusier:0 "Arquebusier"
+ #MaA types
+ arquebusiers:2 "[arquebusiers|E]"
+ 
+ #Special MaA
+ arquebusier:0 "Arquebusiers"
  
  #MaA Descriptions
- arquebusier_flavor:1 "#F Arquebusiers are Light Footmen clad in light armor wielding the rare Arquebus, a powerful weapon in the field.#!"
+ arquebusier_flavor:1 "#F Arquebusiers are lightly-armored soldiers clad in half-plate wielding the rare Arquebus, a powerful weapon on the battlefield.#!"
  

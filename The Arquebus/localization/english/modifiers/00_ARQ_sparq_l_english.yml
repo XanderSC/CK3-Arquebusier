@@ -20,3 +20,11 @@
  arquebus_bad_progress_modifier:0 "Project Setback"
  arquebus_bad_progress_modifier_desc:1 "This character is currently facing a disastrous setback with their current project."
  
+ # ARQUEBUS REGIMENT MODIFIERS
+ arquebusiers_damage_add:1 "[arquebusier|E] [damage|E]"
+ arquebusiers_damage_mult:0 "$arquebusiers_damage_add$"
+ arquebusiers_toughness_add:1 "[arquebusier|E] [toughness|E]"
+ arquebusiers_toughness_mult:0 "$arquebusiers_toughness_add$"
+ arquebusiers_screen_add:1 "[arquebusier|E] [screen|E]"
+ arquebusiers_siege_value_add:1 "[arquebusier|E] [siege_progress|E]"
+ 

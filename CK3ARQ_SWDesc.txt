@@ -1,4 +1,4 @@
-[h1]Overview[/h1]
+[h1]Mod Overview[/h1]
 Adds the [b]Arquebus[/b] to the game as a late medieval era innovation [b][i][u]acquirable by all cultures[/u][/i][/b]. Once unlocked you can then recruit the [b]Arquebusier[/b] MaA regiment for a reasonable cost.
 
 The downside to this awesome firepower? It's locked behind a set date for semi-historical accuracy. You can find it under [i][u]Cultural and Regional[/u][/i] innovations.
@@ -7,41 +7,48 @@ The unit stats are adequately buffed for a ranged unit so if any changes are nec
 
 [b][i](Ignore the 'Not available' message, just means it isn't unlocked yet!)[/i][/b]
 
-[h1]Features[/h1]
+[h3]Current Features[/h3]
 Although small, this mod packs a mighty punch in the way of flavor for your game. The fluff provided isn't extensive but it is, hopefully, a welcome addition.
 [list]
 [*]Unique MaA regiment, the [b]Arquebusier[/b], which is a strong ranged unit wielding the power of gunpowder!
 [*][b]Improve the effectiveness[/b] of your Arquebusiers with a decision, and event chain, to make it happen!
 [*]Gunpowder?! In the Middle Ages?! Not to worry, this powerful innovation cannot be unlocked until [b]1375[/b]!
 [/list]
+[h3]Supported Languages[/h3]
+[list]
+[*]English
+[*]Spanish (Partial)
+[*]More to come!
+[/list]
 
 [h1]Planned Additions[/h1]
 Currently, the mod is functioning in what can be considered a [i]final[/i] state (barring any patch/balance fixes). However, there are definitely future plans in mind!
 [list]
 [*]Add a chain of events which leads up to the acquisition of gunpowder.
+[*]Add in unique cultural gunpowder regiments for the time period. (i.e. Janissaries, Early Tercios, Yeomen Arquebusiers, etc.)
 [*]More localization for different languages.
 [/list]
 There's no set date on when these things will be introduced but I do hope to get these extras added in eventually!
 
 [h1]Mod Compatibility[/h1]
 There shouldn't be any conflicts with any mods not listed below, as the files are all unique.
- 
+
 [h3]Possible Conflicts[/h3]
 [list]
-[*][url=https://steamcommunity.com/workshop/filedetails/?id=2238122607]Dieu et Mon Droit[/url] - There may be minor compatibility issues with DMD as it weighs MAA regiments using it's own unique balance system. [i](You may not see the same system applied to the Arquebusier if used together)[/i]
-[/list]
-
-[h1]Known Issues[/h1]
-[list]
-[*]With running saves the innovation may not appear properly on the Cultural Innovations screen. (Please see [b]Troubleshooting[/b] for a possible fix)
+[*][url=https://steamcommunity.com/workshop/filedetails/?id=2238122607]Dieu et Mon Droit[/url] - There may be compatibility issues with DMD as it weighs/recruits MAA regiments using it's own unique balance system. [i](You may not see the same system applied to the Arquebusier if used together)[/i]
 [/list]
 
 [h1]Troubleshooting[/h1]
 [b]**YOU MAY NEED TO START A NEW SAVE**[/b]
 In order for this innovation to appear properly you might need to start a new save, blame PDX for not making them seamlessly integrate. Sorry folks!!
 
-[b]**POSSIBLE WORKAROUND**[/b]
+[h3]Known Issues[/h3]
+[list]
+[*]With running saves the innovation may not appear properly on the Cultural Innovations screen. (Please see the [b]section below[/b] for a possible fix)
+[/list]
+[h3]Possible Solutions[/h3]
 [i][u][This fix may or may not work][/u][/i]
+
 A quick workaround to solve this issue, with running saves, is to open your game with the [b]debug_mode[/b] option enabled in the launcher and unlock the innovation via console with this command:
 [b]"discover_innovation innovation_arquebus"[/b]
 
@@ -54,6 +61,7 @@ Credit due to all artists for their respective artwork, it is not my own nor do 
 2. [b]Hogoul Kim[/b] (Artstation) - [b][i]Thumbnail artwork[/i][/b]
 3. [b]Wastort[/b] (DeviantArt) - [b][i]Innovation artwork[/i][/b]
 4. [b]Delnar_Ersike[/b] (CK3 Forums/Discord) - [b][i]Improved MaA icon[/i][/b]
+5. [b]Valerian[/b] (Steam) - [b][i]Spanish Translation[/i][/b]
 
 [b][u]Final Notes[/u][/b]
 As this is my first published mod, and more of a proof of concept, any questions or suggestions are welcome! So feel free to message me!
