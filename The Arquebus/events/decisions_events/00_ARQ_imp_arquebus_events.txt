@@ -143,7 +143,7 @@ improved_arquebus.0002 = { #Progress update early
 	theme = martial
 	left_portrait = {
 		character = cp:councillor_marshal
-		animation = personality_rational
+		animation = stress
 	}
 	right_portrait = {
 		character = ROOT
