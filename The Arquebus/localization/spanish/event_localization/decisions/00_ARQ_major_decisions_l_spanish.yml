@@ -1,0 +1,11 @@
+﻿l_english:
+
+ # ARQUEBUS IMPROVEMENT DECISION CHAIN #
+ improve_the_arquebus_decision:0 "Mejorar el Arcabuz"
+ improve_the_arquebus_decision_confirm:0 "Enviar su Mariscal"
+ improve_the_arquebus_decision_tooltip:0 "Su Mariscal tratará de mejorar el Arcabuz."
+ improve_the_arquebus_decision_desc:0 "Enviará a su Mariscal a las varias partes de su reino y al extranjero para buscar habilidosos ingenieros militares."
+ 
+ # ARQUEBUS EVENT DECISION TOOLTIP
+ improve_the_arquebus_event_tooltip:0 "A su regreso le serán presentadas opciones sobre cómo empezar el projecto de mejoría."
+ 
