@@ -17,6 +17,10 @@
 @archers_low_maint_cost = 0.2
 @archers_high_maint_cost = @[archers_low_maint_cost * high_maint_mult]
 
+@handgonne_recruitment_cost = 80
+@handgonne_low_maint_cost = 0.35
+@handgonne_high_maint_cost = @[handgonne_low_maint_cost * high_maint_mult]
+
 @pikemen_recruitment_cost = 75
 @pikemen_low_maint_cost = 0.3
 @pikemen_high_maint_cost = @[pikemen_low_maint_cost * high_maint_mult]
@@ -38,6 +42,10 @@
 @siege_weapons_high_maint_cost = @[siege_weapons_low_maint_cost * high_maint_mult]
 
 ### Cultural MAA
-arquebus_recruitment_cost = @[archers_recruitment_cost * 2]
-arquebus_low_maint_cost = @[archers_low_maint_cost * 2]
-arquebus_high_maint_cost = @[archers_high_maint_cost * 2]
+handgonne_recruitment_cost = @[handgonne_recruitment_cost]
+handgonne_low_maint_cost = @[handgonne_low_maint_cost]
+handgonne_high_maint_cost = @[handgonne_high_maint_cost]
+
+arquebusiers_recruitment_cost = @[handgonne_recruitment_cost * 1.5]
+arquebusiers_low_maint_cost = @[handgonne_low_maint_cost * 1.5]
+arquebusiers_high_maint_cost = @[handgonne_high_maint_cost * 1.5]
