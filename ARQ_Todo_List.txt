@@ -8,11 +8,11 @@
 This document is meant to serve as a list of what is to be prioritized in order to accomplish 'The Arquebus' goals.
 
 Currently, 'The Arquebus' is on version 'v1.4 - Sizzle' which was published on the github on '10/26/2020 @6:30PM EST'.
-The next 'milestone' version is version 'v2.0 - Bang'.
+The next 'major' version is version 'v2.0 - Bang'.
 
 If an item has been accomplished it'll usually have an 'asterisk' at the end of its task in parentheses. If it hasn't been completed yet then the status will be indicated in parentheses instead.
 
-If one or more 'High priority' tasks have been accomplished it will require a 'milestone' version (essentially 1.0, 2.0, etc.) iteration on the github. 'Medium priority' tasks will require a 'major' version (0.1, 0.2, etc.) iteration on the github. 'Low priority' tasks can be grouped together for a 'minor' iteration or a 'patch' version (1.1a, 1.1b, etc.) on the github by item.
+If one or more 'High priority' tasks have been accomplished it will require a 'major' version (essentially 1.0, 2.0, etc.) iteration on the github. 'Medium priority' tasks will require a 'minor' version (0.1, 0.2, etc.) iteration on the github. 'Low priority' tasks can be grouped together for a 'patch' iteration (1.1a, 1.1b, etc.) on the github by item.
 
 Always sign off on when uploading to the github!
 

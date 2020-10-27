@@ -1,5 +1,5 @@
 [h1]Mod Overview[/h1]
-Adds the [b]Arquebus[/b] to the game as a late medieval era innovation [b][i][u]acquirable by all cultures[/u][/i][/b]. Once unlocked you can then recruit the [b]Arquebusier[/b] MaA regiment for a reasonable cost.
+Adds the [b]Arquebus[/b] to the game as a late medieval era innovation [b][i][u]acquirable by all cultures[/u][/i][/b]. Once unlocked you can then recruit the [b]Arquebusier[/b] MaA regiment, or associated cultural regiments, for a reasonable cost.
 
 The downside to this awesome firepower? It's locked behind a set date for semi-historical accuracy. You can find it under [i][u]Cultural and Regional[/u][/i] innovations.
 
@@ -8,9 +8,10 @@ The unit stats are adequately buffed for a ranged unit so if any changes are nec
 [h3]Current Features[/h3]
 Although small, this mod packs a mighty punch in the way of flavor for your game. The fluff provided isn't extensive but it is, hopefully, a welcome addition.
 [list]
-[*]Unique MaA regiment, the [b]Arquebusier[/b], which is a strong ranged unit wielding the power of gunpowder!
+[*][b]Gunpowder?![/b] In the Middle Ages?! Not to worry, this powerful innovation cannot be unlocked until [b]1375[/b]!
+[*]Unique MaA regiment, the [b]Arquebusier[/b], a strong ranged unit wielding the power of gunpowder!
+[*]Unique Cultural MaA regiments! Wield the power of the [b]Janissaries[/b] or master the powerful [b]Spanish Tercios[/b]! (And more!)
 [*][b]Improve the effectiveness[/b] of your Arquebusiers with a decision, and event chain, to make it happen!
-[*]Gunpowder?! In the Middle Ages?! Not to worry, this powerful innovation cannot be unlocked until [b]1375[/b]!
 [/list]
 [h3]Supported Languages[/h3]
 [list]
@@ -23,7 +24,7 @@ Although small, this mod packs a mighty punch in the way of flavor for your game
 Currently, the mod is functioning in what can be considered a [i]final[/i] state (barring any patch/balance fixes). However, there are definitely future plans in mind!
 [list]
 [*]Add a chain of events which leads up to the acquisition of gunpowder.
-[*]Add in unique cultural gunpowder regiments for the time period. (i.e. Janissaries, Early Tercios, Yeomen Arquebusiers, etc.)
+[*]Add in additional unique/cultural gunpowder regiments.
 [*]More localization for different languages.
 [/list]
 There's no set date on when these things will be introduced but I do hope to get these extras added in eventually!
@@ -33,33 +34,45 @@ There shouldn't be any conflicts with any mods not listed below, as the files ar
 
 [h3]Possible Conflicts[/h3]
 [list]
-[*][url=https://steamcommunity.com/workshop/filedetails/?id=2238122607]Dieu et Mon Droit[/url] - There may be compatibility issues with DMD as it weighs/recruits MAA regiments using it's own unique balance system. [i](You may not see the same system applied to the Arquebusier if used together)[/i]
+[*][url=https://steamcommunity.com/workshop/filedetails/?id=2238122607]Dieu et Mon Droit[/url] - There may be compatibility issues with DMD as it weighs/recruits MAA regiments using it's own unique balance system. [i](You may not see the same system applied to the Arquebusier type if used together)[/i]
 [/list]
 
 [h1]Troubleshooting[/h1]
 [b]**YOU MAY NEED TO START A NEW SAVE**[/b]
-In order for this innovation to appear properly you might need to start a new save, blame PDX for not making them seamlessly integrate. Sorry folks!!
+In order for the innovations to appear properly you might need to start a new save, blame PDX for not making them seamlessly integrate. Sorry folks!!
 
 [h3]Known Issues[/h3]
 [list]
-[*]With running saves the innovation may not appear properly on the Cultural Innovations screen. (Please see the [b]section below[/b] for a possible fix)
+[*]With running saves the innovations may not appear properly on the Cultural Innovations screen. (Please see the [b]section below[/b] for a possible fix)
+[*]If you don't see the [b]Arquebus[/b] innovation or it's cultural counterparts [i][u]this is intended[/u][/i]. You must research the [b]Handgonne[/b] innovation [u][i]first[/i][/u] for the consecutive innovations to appear.
 [/list]
 [h3]Possible Solutions[/h3]
 [i][u][This fix may or may not work][/u][/i]
 
-A quick workaround to solve this issue, with running saves, is to open your game with the [b]debug_mode[/b] option enabled in the launcher and unlock the innovation via console with this command:
-[b]"discover_innovation innovation_arquebus"[/b]
+A quick workaround to solve this issue, [b]with running saves[/b], is to open your game with the [b]debug_mode[/b] option enabled in the launcher and input the following command via console:
 
-This will unlock the ability to recruit the MAA regiment for the Arquebusier. The only drawback to doing this is you don't get the artificial time-lock if you force unlock it before the intended year.
+[b]"discover_innovation innovation_handgonne"[/b]
+
+This will unlock the ability to recruit the MAA regiment for the Handgonner and unlock the consecutive innovations. The only drawback to doing this is you don't get the artificial time-lock if you force unlock it before the intended year.
 
 [h1]Credits[/h1]
 Credit due to all artists for their respective artwork, it is not my own nor do I intend to pass it off as such. They are listed below in order:
 
-1. [b]Emilio Rodriguez[/b] (Artstation) - [b][i]MaA artwork[/i][/b]
-2. [b]Hogoul Kim[/b] (Artstation) - [b][i]Thumbnail artwork[/i][/b]
-3. [b]Wastort[/b] (DeviantArt) - [b][i]Innovation artwork[/i][/b]
-4. [b]Delnar_Ersike[/b] (CK3 Forums/Discord) - [b][i]Improved MaA icon[/i][/b]
-5. [b]Valerian[/b] (Steam) - [b][i]Spanish Translation[/i][/b]
+[b][u]General Contributions[/u][/b]
+1. [b]Delnar_Ersike[/b] (CK3 Forums/Discord) - [b][i]Improved MaA icon[/i][/b]
+2. [b]Valerian[/b] (Steam) - [b][i]Spanish Translation[/i][/b]
+
+[b][u]Artwork Credits[/u][/b]
+1. [b]Emilio Rodriguez[/b] - (Artstation)
+2. [b]Hogoul Kim[/b] - (Artstation)
+3. [b]Wastort[/b] - (DeviantArt)
+4. [b]National Guard Bureau[/b] - (Wiki)
+5. [b]Joseph Mathauser[/b] - (DeviantArt)
+6. [b]Jason Juta[/b] - (Almeria Liberia)
+7. [b]Paramara99[/b] - (DeviantArt)
+8. [b]Oleksandr Tereshchenko[/b] - (Wiki)
 
 [b][u]Final Notes[/u][/b]
 As this is my first published mod, and more of a proof of concept, any questions or suggestions are welcome! So feel free to message me!
+
+[img]https://i.imgur.com/p7Fv1Z6.gif[/img]
