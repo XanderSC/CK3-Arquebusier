@@ -1,28 +1,147 @@
 ﻿
-namespace = improved_arquebus
+namespace = ARQ_main
 
 ##################################################
 
-### Improved Arquebus Major Decision Events
+### The Arquebus - Event Chains
 # by SpectreTM
 
-# 0001 - Beginning Arquebus improvements
-# 0004 - Collecting your improvement
+# 0001 - Discovering Gunpowder
+# 0010 - Beginning Arquebus improvements
+# 0013 - Collecting your improvement
 # 000X - X
 
 ##################################################
 
 ##################################################
-# Improving the Arquebus - Decision Chain        #
+#         The Arquebus - Event Chains            #
 ##################################################
+
+##################################################
+#             Discovering Gunpowder              #
+##################################################
+ARQ_main.0001 = { #Discovering Gunpowder - Initial
+	type = character_event
+	title = ARQ_main.0001.t
+	desc = ARQ_main.0001.desc
+	theme = martial
+	left_portrait = {
+		character = ROOT
+		animation = personality_rational
+	}
+	right_portrait = {
+		character = scope:gp_trader
+		animation = personality_bold
+	}
+	
+	immediate = {
+		#Creating our Trader
+		create_character = {
+			age = { 24 32 }
+			location = root.capital_province
+			gender = male
+			trait = education_stewardship_2
+			trait = intellect_good_1
+			trait = diligent
+			faith = this.faith
+			culture = this.culture
+			dynasty = none
+			stewardship = { 8 13 }
+			save_scope_as = gp_trader
+		}
+	}
+	
+	option = {
+		#Trader notifies you of new resource
+		name = ARQ_main.0001.a
+		flavor = ARQ_main.0001.a.flavor
+		
+		hidden_effect = {
+			trigger_event = {
+				id = ARQ_main.0002
+				days = { 30 45 }
+			}
+		}
+		
+		ai_chance = {
+			base = 50
+		}
+	}
+}
+
+ARQ_main.0002 = { #Discovering Gunpowder - Plan
+	type = character_event
+	title = ARQ_main.0002.t
+	desc = ARQ_main.0002.desc
+	theme = martial
+	left_portrait = {
+		character = ROOT
+		animation = personality_rational
+	}
+	right_portrait = {
+		character = cp:councillor_diplomat
+		animation = personality_bold
+	}
+	
+	option = {
+		#Employ Alchemists/Scholars
+		name = ARQ_main.0002.a
+		flavor = ARQ_main.0002.a.flavor
+		
+		hidden_effect = {
+			trigger_event = {
+				id = ARQ_main.0003
+				days = { 60 120 }
+			}
+		}
+		
+		ai_chance = {
+			base = 50
+			ai_value_modifier = {
+				ai_boldness = 0.5
+			}
+		}
+	}
+	
+	option = {
+		#Send Trading Mission
+		name = ARQ_main.0002.b
+		flavor = ARQ_main.0002.b.flavor
+		
+		hidden_effect = {
+			trigger_event = {
+				id = ARQ_main.0005
+				days = { 60 120 }
+			}
+		}
+		
+		ai_chance = {
+			base = 50
+			ai_value_modifier = {
+				ai_greed = 0.5
+			}
+		}
+	}
+	
+	option = {
+		#Do nothing for now
+		name = ARQ_main.0002.c
+		flavor = ARQ_main.0002.c.flavor
+		
+		
+		ai_chance = {
+			base = 0
+		}
+	}
+}
 
 ##################################################
 #             Improving the Arquebus             #
 ##################################################
-improved_arquebus.0001 = { #Beginning Arquebus improvements
+ARQ_main.0010 = { #Beginning Arquebus improvements
 	type = character_event
-	title = improved_arquebus.0001.t
-	desc = improved_arquebus.0001.desc
+	title = ARQ_main.0010.t
+	desc = ARQ_main.0010.desc
 	theme = martial
 	left_portrait = {
 		character = ROOT
@@ -52,9 +171,9 @@ improved_arquebus.0001 = { #Beginning Arquebus improvements
 	
 	option = {
 		#Contract Master Artificer to work for you
-		name = improved_arquebus.0001.a
-		flavor = improved_arquebus.0001.a.flavor
-		custom_tooltip = improved_arquebus.0001.a.chance
+		name = ARQ_main.0010.a
+		flavor = ARQ_main.0010.a.flavor
+		custom_tooltip = ARQ_main.0010.a.chance
 		
 		add_character_modifier = {
 			modifier = arquebus_employed_artificer_modifier
@@ -73,7 +192,7 @@ improved_arquebus.0001 = { #Beginning Arquebus improvements
 		
 		hidden_effect = {
 			trigger_event = {
-				id = improved_arquebus.0002
+				id = ARQ_main.0011
 				days = { 365 730 }
 			}
 		}
@@ -88,9 +207,9 @@ improved_arquebus.0001 = { #Beginning Arquebus improvements
 	
 	option = {
 		#Employ local craftsmen
-		name = improved_arquebus.0001.b
-		flavor = improved_arquebus.0001.b.flavor
-		custom_tooltip = improved_arquebus.0001.b.chance
+		name = ARQ_main.0010.b
+		flavor = ARQ_main.0010.b.flavor
+		custom_tooltip = ARQ_main.0010.b.chance
 		
 		scope:target_county = {
 			add_county_modifier = {
@@ -111,7 +230,7 @@ improved_arquebus.0001 = { #Beginning Arquebus improvements
 		
 		hidden_effect = {
 			trigger_event = {
-				id = improved_arquebus.0002
+				id = ARQ_main.0011
 				days = { 547 912 }
 			}
 		}
@@ -127,8 +246,8 @@ improved_arquebus.0001 = { #Beginning Arquebus improvements
 	
 	option = {
 		#Do nothing for now
-		name = improved_arquebus.0001.c
-		flavor = improved_arquebus.0001.c.flavor
+		name = ARQ_main.0010.c
+		flavor = ARQ_main.0010.c.flavor
 		
 		ai_chance = {
 			base = 0
@@ -136,10 +255,10 @@ improved_arquebus.0001 = { #Beginning Arquebus improvements
 	}
 }
 
-improved_arquebus.0002 = { #Progress update early
+ARQ_main.0011 = { #Progress update early
 	type = character_event
-	title = improved_arquebus.0002.t
-	desc = improved_arquebus.0002.desc
+	title = ARQ_main.0011.t
+	desc = ARQ_main.0011.desc
 	theme = martial
 	left_portrait = {
 		character = cp:councillor_marshal
@@ -152,8 +271,8 @@ improved_arquebus.0002 = { #Progress update early
 	
 	option = {
 		#Pay to potentially improve progress
-		name = improved_arquebus.0002.a
-		flavor = improved_arquebus.0002.a.flavor
+		name = ARQ_main.0011.a
+		flavor = ARQ_main.0011.a.flavor
 		
 		trigger = { gold >= medium_gold_value }
 		show_as_unavailable = {
@@ -167,16 +286,16 @@ improved_arquebus.0002 = { #Progress update early
 		
 		random_list = {
 			10 = {
-				desc = improved_arquebus.0002.a.success
-				custom_tooltip = improved_arquebus.0002.a.success.chance
+				desc = ARQ_main.0011.a.success
+				custom_tooltip = ARQ_main.0011.a.success.chance
 				add_character_modifier = {
 					modifier = arquebus_good_progress_modifier
 					days = { 60 90 }
 				}
 			}
 			10 = {
-				desc = improved_arquebus.0002.a.fail
-				custom_tooltip = improved_arquebus.0002.a.fail.chance
+				desc = ARQ_main.0011.a.fail
+				custom_tooltip = ARQ_main.0011.a.fail.chance
 				add_character_modifier = {
 					modifier = arquebus_bad_progress_modifier
 					days = { 60 90 }
@@ -194,9 +313,9 @@ improved_arquebus.0002 = { #Progress update early
 	
 	option = {
 		#Let the contractors do their work
-		name = improved_arquebus.0002.b
-		flavor = improved_arquebus.0002.b.flavor
-		custom_tooltip = improved_arquebus.0002.b.chance
+		name = ARQ_main.0011.b
+		flavor = ARQ_main.0011.b.flavor
+		custom_tooltip = ARQ_main.0011.b.chance
 		
 		add_character_modifier = {
 			modifier = arquebus_normal_progress_modifier
@@ -211,17 +330,17 @@ improved_arquebus.0002 = { #Progress update early
 	after = {
 		hidden_effect = {
 			trigger_event = {
-				id = improved_arquebus.0003
+				id = ARQ_main.0012
 				days = { 365 730 }
 			}
 		}
 	}
 }
 
-improved_arquebus.0003 = { #Progress update later
+ARQ_main.0012 = { #Progress update later
 	type = character_event
-	title = improved_arquebus.0003.t
-	desc = improved_arquebus.0003.desc
+	title = ARQ_main.0012.t
+	desc = ARQ_main.0012.desc
 	theme = martial
 	left_portrait = {
 		character = cp:councillor_marshal
@@ -234,22 +353,22 @@ improved_arquebus.0003 = { #Progress update later
 	
 	option = {
 		#Overseeing your Marshal
-		name = improved_arquebus.0003.a
+		name = ARQ_main.0012.a
 		
 		duel = {
 			skill = martial
 			value = decent_skill_rating
 			10 = {
-				desc = improved_arquebus.0003.a.success
-				custom_tooltip = improved_arquebus.0003.a.success.chance
+				desc = ARQ_main.0012.a.success
+				custom_tooltip = ARQ_main.0012.a.success.chance
 				add_character_modifier = {
 					modifier = arquebus_good_progress_modifier
 					days = { 60 90 }
 				}
 			}
 			10 = {
-				desc = improved_arquebus.0003.a.fail
-				custom_tooltip = improved_arquebus.0003.a.fail.chance
+				desc = ARQ_main.0012.a.fail
+				custom_tooltip = ARQ_main.0012.a.fail.chance
 				add_character_modifier = {
 					modifier = arquebus_bad_progress_modifier
 					days = { 60 90 }
@@ -268,8 +387,8 @@ improved_arquebus.0003 = { #Progress update later
 	
 	option = {
 		#Hire additional craftsmen
-		name = improved_arquebus.0003.b
-		flavor = improved_arquebus.0003.b.flavor
+		name = ARQ_main.0012.b
+		flavor = ARQ_main.0012.b.flavor
 		
 		trigger = { gold >= medium_gold_value }
 		show_as_unavailable = {
@@ -283,16 +402,16 @@ improved_arquebus.0003 = { #Progress update later
 		
 		random_list = {
 			10 = {
-				desc = improved_arquebus.0003.b.success
-				custom_tooltip = improved_arquebus.0003.b.success.chance
+				desc = ARQ_main.0012.b.success
+				custom_tooltip = ARQ_main.0012.b.success.chance
 				add_character_modifier = {
 					modifier = arquebus_good_progress_modifier
 					days = { 60 90 }
 				}
 			}
 			10 = {
-				desc = improved_arquebus.0003.b.fail
-				custom_tooltip = improved_arquebus.0003.b.fail.chance
+				desc = ARQ_main.0012.b.fail
+				custom_tooltip = ARQ_main.0012.b.fail.chance
 				add_character_modifier = {
 					modifier = arquebus_bad_progress_modifier
 					days = { 60 90 }
@@ -310,9 +429,9 @@ improved_arquebus.0003 = { #Progress update later
 	
 	option = {
 		#Let your Marshal oversee the work alone
-		name = improved_arquebus.0003.c
-		flavor = improved_arquebus.0003.c.flavor
-		custom_tooltip = improved_arquebus.0003.c.chance
+		name = ARQ_main.0012.c
+		flavor = ARQ_main.0012.c.flavor
+		custom_tooltip = ARQ_main.0012.c.chance
 		
 		add_character_modifier = {
 			modifier = arquebus_normal_progress_modifier
@@ -327,7 +446,7 @@ improved_arquebus.0003 = { #Progress update later
 	after = {
 		hidden_effect = {
 			trigger_event = {
-				id = improved_arquebus.0004
+				id = ARQ_main.0013
 				days = { 365 547 }
 				
 			}
@@ -335,10 +454,10 @@ improved_arquebus.0003 = { #Progress update later
 	}
 }
 
-improved_arquebus.0004 = { #Collecting your improvement
+ARQ_main.0013 = { #Collecting your improvement
 	type = character_event
-	title = improved_arquebus.0004.t
-	desc = improved_arquebus.0004.desc
+	title = ARQ_main.0013.t
+	desc = ARQ_main.0013.desc
 	theme = martial
 	left_portrait = {
 		character = ROOT
@@ -350,25 +469,25 @@ improved_arquebus.0004 = { #Collecting your improvement
 	}
 	
 	option = {
-		name = improved_arquebus.0004.a
+		name = ARQ_main.0013.a
 		
 		random_list = {
 			10 = {
-				desc = improved_arquebus.0004.a.success_good
+				desc = ARQ_main.0013.a.success_good
 				add_character_modifier = {
 					modifier = arquebus_good_imp_modifier
 					days = 9125
 				}
 			}
 			10 = {
-				desc = improved_arquebus.0004.a.success_fair
+				desc = ARQ_main.0013.a.success_fair
 				add_character_modifier = {
 					modifier = arquebus_fair_imp_modifier
 					days = 9125
 				}
 			}
 			10 = {
-				desc = improved_arquebus.0004.a.success_critical
+				desc = ARQ_main.0013.a.success_critical
 				add_character_modifier = {
 					modifier = arquebus_excellent_imp_modifier
 					days = 9125
