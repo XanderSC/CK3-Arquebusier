@@ -44,7 +44,7 @@
 	effect = {
 		custom_tooltip = improve_the_arquebus_event_tooltip
 		trigger_event = {
-			id = improved_arquebus.0001
+			id = ARQ_main.0010
 		}
 	}
 
