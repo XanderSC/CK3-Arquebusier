@@ -2,3 +2,8 @@
 	alias = { arquebusier }
 	parent = men_at_arms
 }
+
+field_weapons = {
+	alias = { field_weapon }
+	parent = men_at_arms
+}
