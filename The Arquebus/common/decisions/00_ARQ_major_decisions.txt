@@ -16,12 +16,15 @@
 				has_innovation = innovation_hussite_gunner
 			}
 		}
-		NOT = {
-			has_character_flag = flag_improved_arquebus
+		NOT = {  #Can only do it once.
+			is_target_in_global_variable_list = {
+				name = unavailable_unique_decisions
+				target = flag:flag_improved_arquebus
+			}
 		}
 	}
 	
-	cooldown = { days = 1825 }
+	cooldown = { days = 3650 }
 
 	is_valid = {
 		prestige_level >= 3
@@ -71,12 +74,15 @@ seek_gunpowder_decision = {
 	is_shown = {
 		is_ruler = yes
 		required_year_greater_or_equal_trigger = { YEAR = 1215 }
-		NOT = {
-			has_character_flag = flag_found_gunpowder
+		NOT = {  #Can only do it once.
+			is_target_in_global_variable_list = {
+				name = unavailable_unique_decisions
+				target = flag:flag_found_gunpowder
+			}
 		}
 	}
 	
-	cooldown = { days = 60 }
+	cooldown = { days = 3650 }
 
 	is_valid = {
 		prestige_level >= 3

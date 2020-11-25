@@ -2,12 +2,12 @@
 ## ARQ TO-DO LIST ##
 ####################
 ##  Produced By:  ##
-##    SpectreSC   ##
+##    XanderSC    ##
 ####################
 
 This document is meant to serve as a list of what is to be prioritized in order to accomplish 'The Arquebus' goals.
 
-Currently, 'The Arquebus' is on version 'v1.4 - Sizzle' which was published on the github on '10/26/2020 @6:30PM EST'.
+Currently, 'The Arquebus' is on version 'v1.5 - Sizzle' which was published on the github on '11/19/2020 @11:00AM EST'.
 The next 'major' version is version 'v2.0 - Bang'.
 
 If an item has been accomplished it'll usually have an 'asterisk' at the end of its task in parentheses. If it hasn't been completed yet then the status will be indicated in parentheses instead.
@@ -18,8 +18,8 @@ Always sign off on when uploading to the github!
 
 ## HIGH PRIORITY ##
 
-1. Add an event chain to acquire gunpowder as a prerequisite to unlocking the 'Arquebus'.
-2. 
+1. Add an event chain to acquire gunpowder as a prerequisite to unlocking the 'Arquebus'. (WIP)
+2. Add in a chain of buildings, the Gunnery Range, to improve all gunpowder type regiments with static bonuses. (*)
 3. 
 4. 
 5. 
@@ -31,41 +31,26 @@ Always sign off on when uploading to the github!
 
 ## MEDIUM PRIORITY ##
 
-1. Add an innovation to all cultures for the 'Arquebus' in the LME. (*)
-2. Add a unique, custom, regiment_type to handle the addition of the 'Arquebusier'. (*)
-3. Add a time-lock to the 'Arquebus' innovation so that it can only progress after 1375. (*)
-4. Add a decision and event chain to improve the 'Arquebus' innovation in one of three ways. (*)
-5. Create a unique trigger, 'required_year', to set artificial conditions for 'Arquebus' innovation. (*)
-6. Add all new cultural MaA innovations to the 'improved_arquebus' event chain/decision. (*)
-7. Add additional cultural regiments to the 'Arquebusier' type for variety. (*)
-8. Add a precursor innovation for the 'Arquebus', the 'Handgonne'. (*)
+1. Add in a secondary "Field Weapon" regiment to flesh out type. (TO-DO)
+2. Add in Indian cultural gunpowder regiments. (TO-DO)
+3. Add in Asian/Mongolian cultural gunpowder regiments. (TO-DO)
+4. Move "Handgonne" and "Arquebus" innovations into Military Group, with required_year trigger as a prerequisite. (*)
+5. 
+6. 
+7. 
+8. 
 9. 
-10. 
-11. 
-12. 
-13. 
-14. 
-15. 
+10.  
 
 ## LOW PRIORITY ##
 
-1. Fix improper loc_key being used for 'Arquebusier'. (*)
-2. Add artwork for Arquebusier special regiment. (*)
-3. Add proper localization for the 'Arquebusier' description and flavor text. (*)
-4. Add proper regiment icons for the 'Arquebusier'. (*)
-5. Fix minor localization issues with Arquebusier MAA innovation. (*)
-6. Added game concept for the 'Arquebusier' regiment_type. (*)
-7. Fixed trigger localization bug with 'CURRENT_DATE' when applied to 'Arquebus' innovation. (*)
-8. Add proper localization for the 'Improve the Arquebus' decision/event chains. (*)
-9. Create Compatch for Community Flavor Pack. (*)
-10. Balancing fixes for the 'Arquebusier' MaA regiment. (*)
-11. Add a unique innovations category for "Special" innovations. (IN PROGRESS)
-12. 
-13. 
-14. 
-15. 
-16. 
-17. 
-18. 
-19. 
-20. 
+1. Create Gunnery Range icon gfx. (WIP)
+2. 
+3. 
+4. 
+5. 
+6. 
+7. 
+8. 
+9. 
+10. 

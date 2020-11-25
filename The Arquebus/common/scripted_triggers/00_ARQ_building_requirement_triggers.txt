@@ -1,0 +1,18 @@
+﻿######################
+# GUNPOWDER MILITARY #
+######################
+
+building_gunnery_range_requirement_terrain = {
+	OR = {
+		terrain = farmlands
+		terrain = plains
+		terrain = drylands
+		terrain = hills
+		terrain = mountains
+		terrain = forest
+		terrain = taiga
+		terrain = jungle
+		terrain = wetlands
+		terrain = steppe
+	}
+}

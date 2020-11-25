@@ -1,0 +1,459 @@
+﻿#### Local Types ####
+@administration_1 = "gfx/interface/icons/culture_innovations/innovation_administration_01.dds"
+@administration_2 = "gfx/interface/icons/culture_innovations/innovation_administration_02.dds"
+@administration_3 = "gfx/interface/icons/culture_innovations/innovation_administration_03.dds"
+@civil_construction_1 = "gfx/interface/icons/culture_innovations/innovation_civil_construction_01.dds"
+@civil_construction_2 = "gfx/interface/icons/culture_innovations/innovation_civil_construction_02.dds"
+@leadership_1 = "gfx/interface/icons/culture_innovations/innovation_leadership_01.dds"
+@leadership_2 = "gfx/interface/icons/culture_innovations/innovation_leadership_02.dds"
+@raised_banner = "gfx/interface/icons/culture_innovations/innovation_raised_banner.dds"
+@fortifications = "gfx/interface/icons/culture_innovations/innovation_fortifications.dds"
+@siege_weapons = "gfx/interface/icons/culture_innovations/innovation_siege_weapons.dds"
+@levy_building = "gfx/interface/icons/culture_innovations/innovation_levy_building.dds"
+@maa_01 = "gfx/interface/icons/culture_innovations/innovation_maa_01.dds"
+@maa_02 = "gfx/interface/icons/culture_innovations/innovation_maa_02.dds"
+@weapons_and_armor_01 = "gfx/interface/icons/culture_innovations/innovation_weapons_and_armor_01.dds"
+@weapons_and_armor_02 = "gfx/interface/icons/culture_innovations/innovation_weapons_and_armor_02.dds"
+@knight = "gfx/interface/icons/culture_innovations/innovation_knight.dds"
+@majesty_01 = "gfx/interface/icons/culture_innovations/innovation_majesty_01.dds"
+@majesty_02 = "gfx/interface/icons/culture_innovations/innovation_majesty_02.dds"
+@majesty_03 = "gfx/interface/icons/culture_innovations/innovation_majesty_03.dds"
+@nobility_01 = "gfx/interface/icons/culture_innovations/innovation_nobility_01.dds"
+@nobility_02 = "gfx/interface/icons/culture_innovations/innovation_nobility_02.dds"
+@nobility_03 = "gfx/interface/icons/culture_innovations/innovation_nobility_03.dds"
+@nobility_04 = "gfx/interface/icons/culture_innovations/innovation_nobility_04.dds"
+@misc_inventions = "gfx/interface/icons/culture_innovations/innovation_misc_inventions.dds"
+
+@camel = "gfx/interface/icons/culture_innovations/innovation_camel.dds"
+@elephant = "gfx/interface/icons/culture_innovations/innovation_elephant.dds"
+@special_maa_01 = "gfx/interface/icons/culture_innovations/innovation_special_maa_01.dds"
+@special_maa_02 = "gfx/interface/icons/culture_innovations/innovation_special_maa_02.dds"
+
+@arquebus = "gfx/interface/icons/culture_innovations/innovation_arquebus.dds"
+@handgonne = "gfx/interface/icons/culture_innovations/innovation_handgonne.dds"
+@arquebus_cultural = "gfx/interface/icons/culture_innovations/innovation_arquebus_cultural.dds"
+
+#culture_group_military
+innovation_machicolations = {
+	group = culture_group_military
+	culture_era = culture_era_late_medieval
+	icon = @fortifications
+	custom = unlock_late_medieval_fortification_buildings
+
+	flag = global_regular
+	flag = late_medieval_era_regular
+}
+
+innovation_bombard = {
+	group = culture_group_military
+	culture_era = culture_era_late_medieval
+	icon = @siege_weapons
+
+	unlock_maa = bombard
+}
+
+innovation_royal_armory = {
+	group = culture_group_military
+	culture_era = culture_era_late_medieval
+	icon = @levy_building
+	
+	custom = unlock_late_medieval_military_buildings
+	
+	modifier = {
+		levy_reinforcement_rate = 0.15
+	}
+
+	flag = global_regular
+	flag = late_medieval_era_regular
+}
+
+innovation_standing_armies = {
+	group = culture_group_military
+	culture_era = culture_era_late_medieval
+	icon = @leadership_2
+	
+	modifier = {
+		men_at_arms_cap = 1
+		men_at_arms_limit = 5
+	}
+
+	flag = global_regular
+	flag = late_medieval_era_regular
+}
+
+innovation_sappers = {
+	group = culture_group_military
+	culture_era = culture_era_late_medieval
+	icon = @weapons_and_armor_01
+	
+	modifier = {
+		siege_phase_time = -0.1
+	}
+
+	flag = global_regular
+	flag = late_medieval_era_regular
+}
+
+innovation_plate_armor = {
+	group = culture_group_military
+	culture_era = culture_era_late_medieval
+	icon =  @weapons_and_armor_02
+	
+	maa_upgrade = {
+		type = heavy_infantry
+		toughness = 3
+	}
+	maa_upgrade = {
+		type = heavy_cavalry
+		toughness = 3
+	}
+
+	flag = global_regular
+	flag = late_medieval_era_regular
+}
+
+# Unique MaA Innovations
+innovation_handgonne = {
+	group = culture_group_military
+	culture_era = culture_era_late_medieval
+	icon = @handgonne
+	
+	custom = unlock_late_medieval_gunpowder_buildings
+	
+	can_progress = {
+		required_year_greater_or_equal_trigger = { YEAR = 1285 }
+		custom_description = {
+			text = "discovered_gunpowder"
+			is_target_in_global_variable_list = {
+				name = unavailable_unique_decisions
+				target = flag:flag_found_gunpowder
+			}
+		}
+	}
+
+	unlock_maa = handgonner
+	
+	modifier = {
+		men_at_arms_cap = 1
+	}
+
+	flag = global_maa
+	flag = late_medieval_era_regular
+}
+
+innovation_arquebus = {
+	group = culture_group_military
+	culture_era = culture_era_late_medieval
+	icon = @arquebus
+
+	potential = {
+		NOT = {
+			#Turkic Group
+			this = culture:turkish
+			this = culture:pecheneg
+			this = culture:shatuo
+			this = culture:ongud
+			
+			#Iberian Group
+			this = culture:basque
+			this = culture:castilian
+			this = culture:catalan
+			this = culture:aragonese
+			this = culture:portuguese
+			
+			#West Germanic Group
+			this = culture:english
+			this = culture:scottish
+			this = culture:irish
+			this = culture:welsh
+			
+			#Baltic Group
+			this = culture:czech
+			this = culture:polish
+			this = culture:lithuanian
+			this = culture:pommeranian
+		}
+	}
+	
+	can_progress = {
+		required_year_greater_or_equal_trigger = { YEAR = 1350 }
+		has_innovation = innovation_handgonne
+	}
+	
+	modifier = {
+		men_at_arms_cap = 1
+	}
+
+	unlock_maa = arquebusier
+
+	flag = global_maa
+	flag = late_medieval_era_regular
+}
+
+# Cultural MaA Innovations
+innovation_janissary = {
+	group = culture_group_military
+	culture_era = culture_era_late_medieval
+	icon = @arquebus_cultural
+	
+	potential = {
+		OR = {
+			this = culture:turkish
+			this = culture:pecheneg
+			this = culture:shatuo
+			this = culture:ongud
+		}
+	}
+	
+	can_progress = {
+		required_year_greater_or_equal_trigger = { YEAR = 1350 }
+		has_innovation = innovation_handgonne
+	}
+	
+	modifier = {
+		men_at_arms_cap = 1
+	}
+
+	unlock_maa = janissary
+
+	flag = global_maa
+	flag = late_medieval_era_regular
+}
+
+innovation_tercio = {
+	group = culture_group_military
+	culture_era = culture_era_late_medieval
+	icon = @arquebus_cultural
+	
+	potential = {
+		OR = {
+			this = culture:basque
+			this = culture:castilian
+			this = culture:catalan
+			this = culture:aragonese
+			this = culture:portuguese
+		}
+	}
+	
+	can_progress = {
+		required_year_greater_or_equal_trigger = { YEAR = 1350 }
+		has_innovation = innovation_handgonne
+	}
+	
+	modifier = {
+		men_at_arms_cap = 1
+	}
+
+	unlock_maa = tercio
+
+	flag = global_maa
+	flag = late_medieval_era_regular
+}
+
+innovation_yeoman_arquebusier = {
+	group = culture_group_military
+	culture_era = culture_era_late_medieval
+	icon = @arquebus_cultural
+	
+	potential = {
+		OR = {
+			this = culture:english
+			this = culture:scottish
+			this = culture:irish
+			this = culture:welsh
+		}
+	}
+	
+	can_progress = {
+		required_year_greater_or_equal_trigger = { YEAR = 1350 }
+		has_innovation = innovation_handgonne
+	}
+	
+	modifier = {
+		men_at_arms_cap = 1
+	}
+
+	unlock_maa = yeoman_arquebusier
+
+	flag = global_maa
+	flag = late_medieval_era_regular
+}
+
+innovation_hussite_gunner = {
+	group = culture_group_military
+	culture_era = culture_era_late_medieval
+	icon = @arquebus_cultural
+	
+	potential = {
+		OR = {
+			this = culture:czech
+			this = culture:polish
+			this = culture:lithuanian
+			this = culture:pommeranian
+		}
+	}
+	
+	can_progress = {
+		required_year_greater_or_equal_trigger = { YEAR = 1350 }
+		has_innovation = innovation_handgonne
+	}
+	
+	modifier = {
+		men_at_arms_cap = 1
+	}
+
+	unlock_maa = hussite_gunner
+
+	flag = global_maa
+	flag = late_medieval_era_regular
+}
+
+#culture_group_civic
+innovation_primogeniture = {
+	group = culture_group_civic
+	culture_era = culture_era_late_medieval
+	icon = @majesty_01
+	
+	unlock_law = single_heir_succession_law
+	unlock_law = single_heir_succession_law_youngest
+
+	flag = global_regular
+	flag = late_medieval_era_regular
+}
+
+innovation_cranes = {
+	group = culture_group_civic
+	culture_era = culture_era_late_medieval
+	icon = @civil_construction_1
+	
+	custom = unlock_late_medieval_economic_buildings
+	
+	modifier = {
+		build_speed = -0.15
+	}
+
+	flag = global_regular
+	flag = late_medieval_era_regular
+}
+
+innovation_noblesse_oblige = {
+	group = culture_group_civic
+	culture_era = culture_era_late_medieval
+	icon = @nobility_03
+	
+	modifier = {
+		direct_vassal_opinion = 5
+		fellow_vassal_opinion = 5
+	}
+
+	flag = global_regular
+	flag = late_medieval_era_regular
+}
+
+innovation_rightful_ownership = {
+	group = culture_group_civic
+	culture_era = culture_era_late_medieval
+	icon = @leadership_1
+	
+	unlock_casus_belli = de_jure_cb
+	custom = multiple_claim_wars_others
+	custom = cb_discount_prestige_10
+}
+
+innovation_ermine_cloaks = {
+	group = culture_group_civic
+	culture_era = culture_era_late_medieval
+	icon = @majesty_03
+	
+	modifier = {
+		monthly_prestige_gain_mult = 0.1
+	}
+
+	flag = global_regular
+	flag = late_medieval_era_regular
+}
+
+innovation_court_officials = {
+	group = culture_group_civic
+	culture_era = culture_era_late_medieval
+	icon = @nobility_02
+	
+	modifier = {
+		domain_limit = 1
+	}
+
+	flag = global_regular
+	flag = late_medieval_era_regular
+}
+
+innovation_development_04 = {
+	group = culture_group_civic
+	culture_era = culture_era_late_medieval
+	icon = @misc_inventions
+
+	custom = reduce_develop_county_penalty_04
+
+	flag = global_regular
+	flag = late_medieval_era_regular
+}
+
+innovation_currency_04 = {
+	group = culture_group_civic
+	culture_era = culture_era_late_medieval
+	icon = @administration_1
+
+	modifier = {
+		development_growth_factor = 0.1
+	}
+
+	flag = global_regular
+	flag = late_medieval_era_regular
+}
+
+#culture_group_regional
+ innovation_wierdijks = {
+	group = culture_group_regional
+	culture_era = culture_era_late_medieval
+	region = custom_netherlands
+	icon = @civil_construction_2
+	
+	modifier = {
+		levy_size = 0.01 #Not that kind of levee!
+		city_holding_build_speed = -0.1
+		city_holding_holding_build_speed = -0.1
+		development_growth_factor = 0.1
+
+	}
+
+	flag = global_regional
+	flag = late_medieval_era_regional
+}
+
+innovation_condottieri = {
+	group = culture_group_regional
+	culture_era = culture_era_late_medieval
+	region = world_europe_south_italy
+	icon = @maa_01
+	
+	modifier = {
+		mercenary_count_mult = 1
+		same_culture_mercenary_hire_cost_mult = -0.25
+	}
+
+	flag = global_regional
+	flag = late_medieval_era_regional
+}
+
+innovation_deccan_unity = {
+	group = culture_group_regional
+	culture_era = culture_era_late_medieval
+	region = world_india_deccan
+	icon = @nobility_04
+	
+	modifier = {
+		same_faith_opinion = 5
+	}
+
+	flag = global_regional
+	flag = late_medieval_era_regional
+}
