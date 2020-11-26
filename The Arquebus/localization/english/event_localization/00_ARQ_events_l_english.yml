@@ -17,6 +17,39 @@
  ARQ_main.0002.b.flavor:0 "Our Traders have brought us the news, it is now their task to acquire it."
  ARQ_main.0002.c:0 "Maybe later..."
  ARQ_main.0002.c.flavor:0 "Perhaps we'll revisit this idea at a later time."
+
+ ARQ_main.0003.t:0 "Alchemical Mysteries"
+ ARQ_main.0003.desc:0 "Placeholder."
+ ARQ_main.0003.a:0 "Begin Synthesizing!"
+ ARQ_main.0003.a.flavor:0 "We've gathered our best Alchemists for this task, put them to work."
+
+ ARQ_main.0004.t:0 "Fruits of Labor"
+ ARQ_main.0004.desc:0 "Placeholder."
+ ARQ_main.0004.a:0 "Utilize Local Materials"
+ ARQ_main.0004.a.flavor:0 "We can collect whatever reagents are required from our local quarries and mines."
+ ARQ_main.0004.b:0 "Import Necessary Materials"
+ ARQ_main.0004.b.flavor:0 "Instead of stripping our realm dry, perhaps we can import the required reagents?"
+
+ ARQ_main.0005.t:0 "The Road of Silk"
+ ARQ_main.0005.desc:0 "Placeholder."
+ ARQ_main.0005.a:0 "Back to the Silk Road!"
+ ARQ_main.0005.a.flavor:0 "With an ample supply of gold we can send our Traders back to acquire a large sum of gunpowder."
+
+ ARQ_main.0006.t:0 "Artificia Exotica"
+ ARQ_main.0006.desc:0 "Placeholder."
+ ARQ_main.0006.a:0 "Strike the Deal"
+ ARQ_main.0006.a.flavor:0 "The locals here have offered us a large sum of gunpowder for a reasonable cost, perhaps we should accept?"
+ ARQ_main.0006.b:0 "Barter with the Locals"
+ ARQ_main.0006.b.flavor:0 "Your trader is positive he can establish better terms for our trade agreement, should we barter?"
+ ARQ_main.0006.success:0 "Your Trader has succeeded in hagggling for a reduced price on the deal!"
+ ARQ_main.0006.failure:0 "Your Trader has failed in his bartering, the deal was struck at the original price."
+
+ ARQ_main.0007.t:0 "Dragon's Roar"
+ ARQ_main.0007.desc:0 "Placeholder."
+ ARQ_main.0007.a:0 "We have tamed the Dragon!"
+ ARQ_main.0007.a.flavor:0 "With the success of our project we have now acquired the means to procure gunpowder ourselves. Success!"
+
+ ARQ_main.acquired.gunpowder:0 "You may now begin researching innovations that use [gunpowder|E]. The first such innovation is the Handgonne."
  
 # ARQUEBUS IMPROVEMENT EVENT CHAIN #
  ARQ_main.0010.t:0 "Necessary Improvements"

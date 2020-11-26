@@ -406,6 +406,8 @@ ARQ_main.0007 = { #Discovering Gunpowder - Final
 		name = ARQ_main.0007.a
 		flavor = ARQ_main.0007.a.flavor
 
+		custom_tooltip = ARQ_main.acquired.gunpowder
+
 		hidden_effect = {
 			add_to_global_variable_list = {
 				name = unavailable_unique_decisions
