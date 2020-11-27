@@ -7,7 +7,7 @@
 
 This document is meant to serve as a list of what is to be prioritized in order to accomplish 'The Arquebus' goals.
 
-Currently, 'The Arquebus' is on version 'v1.5 - Sizzle' which was published on the github on '11/19/2020 @11:00AM EST'.
+Currently, 'The Arquebus' is on version 'v1.5 - Sizzle' which was published on the github on '11/26/2020 @11:00AM EST'.
 The next 'major' version is version 'v2.0 - Bang'.
 
 If an item has been accomplished it'll usually have an 'asterisk' at the end of its task in parentheses. If it hasn't been completed yet then the status will be indicated in parentheses instead.
@@ -18,7 +18,7 @@ Always sign off on when uploading to the github!
 
 ## HIGH PRIORITY ##
 
-1. Add an event chain to acquire gunpowder as a prerequisite to unlocking the 'Arquebus'. (WIP)
+1. Add an event chain to acquire gunpowder as a prerequisite to unlocking the 'Arquebus'. (*)
 2. Add in a chain of buildings, the Gunnery Range, to improve all gunpowder type regiments with static bonuses. (*)
 3. 
 4. 

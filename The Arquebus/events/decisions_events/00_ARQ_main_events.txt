@@ -397,7 +397,7 @@ ARQ_main.0007 = { #Discovering Gunpowder - Final
 		animation = personality_rational
 	}
 	right_portrait = {
-		character = scope:gp_final
+		character = cp:councillor_chancellor
 		animation = personality_bold
 	}
 
