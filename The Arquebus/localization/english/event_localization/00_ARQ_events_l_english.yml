@@ -10,7 +10,7 @@
  ARQ_main.0001.a.flavor:0 "We must discuss this latest revelation with the Council!"
  
  ARQ_main.0002.t:0 "Planning Acquisition"
- ARQ_main.0002.desc:0 "The Council you have summoned has decided to send your Chancellor as their delegate. They have decided on two distinct plans to propose to you.\n\n"My Liege, we believe we can either acquire a vast enough sum to last us decades or reproduce it ourselves." Your Chancellor lays the plans down infront of you and waits for your response."
+ ARQ_main.0002.desc:0 "The Council you have summoned has decided to send your Chancellor as their delegate. They have decided on two distinct plans to propose to you.\n\n"My Liege, we believe we can either acquire a vast enough sum to last us decades or reproduce it ourselves."\n\nYour Chancellor lays the plans down infront of you and waits for your response."
  ARQ_main.0002.a:0 "Employ Bright Minds"
  ARQ_main.0002.a.flavor:0 "We have many Scholars and Alchemists who can be put to use for this task."
  ARQ_main.0002.b:0 "Send a Trade Mission"
