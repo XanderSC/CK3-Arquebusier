@@ -9,6 +9,7 @@ field_weapons = {
 }
 
 gunpowder = {
+	texture = "gfx/interface/icons/icon_gunpowder.dds"
 }
 
 gunpowder_building = {
