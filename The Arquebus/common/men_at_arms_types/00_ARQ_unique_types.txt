@@ -2,7 +2,7 @@
 @maa_buy_cost = 150
 @maa_low_maintenance_cost = 1.0
 @maa_high_maintenance_cost = 5.0
-@cultural_maa_extra_ai_score = 45 # Equivalent to having 4.5 extra regiments beyond what the code scoring would indicate (see NEGATIVE_SCORE_PER_EXISTING_REGIMENT)
+@cultural_maa_extra_ai_score = 60 # Equivalent to having 6 extra regiments beyond what the code scoring would indicate (see NEGATIVE_SCORE_PER_EXISTING_REGIMENT)
 
 ### GUNPOWDER REGIMENTS ###
 ## LATE MEDIEVAL ERA
@@ -15,8 +15,6 @@ handgonner = {
 	screen = 0
 	
 	terrain_bonus = {
-		plains = { damage = 5 }
-		hills = { damage = 5 }
 		forest = { damage = -10 toughness = -5 }
 		mountains = { damage = -10 toughness = -5 }
 	}
@@ -44,9 +42,7 @@ arquebusier = {
 	screen = 5
 	
 	terrain_bonus = {
-		plains = { damage = 5 }
 		hills = { damage = 5 toughness = 5 }
-		drylands = { damage = 5 }
 		forest = { damage = -5 toughness = -5 }
 		mountains = { damage = -5 toughness = -5 }
 	}
@@ -73,13 +69,12 @@ janissary = {
 
 	damage = 80
 	toughness = 10
-	pursuit = 0
+	pursuit = 5
 	screen = 5
 	
 	terrain_bonus = {
 		desert = { damage = 10 toughness = 5}
 		hills = { damage = 5 toughness = 5 }
-		drylands = { damage = 5 }
 		forest = { damage = -5 toughness = -5 }
 		mountains = { damage = -10 toughness = -5 }
 	}
@@ -102,17 +97,16 @@ janissary = {
 tercio = {
 	type = arquebusiers
 
-	damage = 60
-	toughness = 20
+	damage = 70
+	toughness = 25
 	pursuit = 0
 	screen = 5
 	
 	terrain_bonus = {
-		plains = { damage = 5 }
 		hills = { damage = 10 toughness = 10 }
 		drylands = { damage = 5 }
 		forest = { damage = -5 toughness = -5 }
-		mountains = { damage = -10 toughness = -5 }
+		mountains = { damage = -5 toughness = -5 }
 	}
 	
 	counters = {
@@ -135,14 +129,13 @@ yeoman_arquebusier = {
 
 	damage = 70
 	toughness = 15
-	pursuit = 0
+	pursuit = 5
 	screen = 5
 	
 	terrain_bonus = {
 		plains = { damage = 10 toughness = 5 }
 		hills = { damage = 5 toughness = 5 }
 		forest = { damage = -5 toughness = -5 }
-		mountains = { damage = -10 toughness = -5 }
 	}
 	
 	counters = {
@@ -164,7 +157,7 @@ hussite_gunner = {
 	type = arquebusiers
 
 	damage = 60
-	toughness = 25
+	toughness = 30
 	pursuit = 0
 	screen = 5
 	
@@ -188,4 +181,62 @@ hussite_gunner = {
 	stack = 100
 	ai_quality = { value = @cultural_maa_extra_ai_score }
 	icon = hussite_gunner
+}
+
+pishchal = { #AKA Pishchal'niki
+	type = arquebusiers
+
+	damage = 70
+	toughness = 15
+	pursuit = 5
+	screen = 5
+	
+	terrain_bonus = {
+		plains = { damage = 10 }
+		hills = { damage = 10 }
+		forest = { damage = -5 toughness = -5 }
+	}
+	
+	counters = {
+		archers = 1
+		pikemen = 1
+		heavy_infantry = 1
+	}
+	
+	buy_cost = { gold = arquebusiers_recruitment_cost }
+	low_maintenance_cost = { gold = arquebusiers_low_maint_cost }
+	high_maintenance_cost = { gold = arquebusiers_high_maint_cost }
+	
+	stack = 100
+	ai_quality = { value = @cultural_maa_extra_ai_score }
+	icon = pishchal
+}
+
+reiter = { #AKA Schwarze Reiter or 'Black Riders'
+	type = arquebusiers
+
+	damage = 75
+	toughness = 15
+	pursuit = 15
+	screen = 0
+	
+	terrain_bonus = {
+		plains = { damage = 10 }
+		hills = { damage = -5 toughness = -5 }
+		forest = { damage = -10 toughness = -10 }
+	}
+	
+	counters = {
+		archers = 1
+		heavy_infantry = 1
+		skirmishers = 1
+	}
+	
+	buy_cost = { gold = arquebusiers_recruitment_cost }
+	low_maintenance_cost = { gold = arquebusiers_low_maint_cost }
+	high_maintenance_cost = { gold = arquebusiers_high_maint_cost }
+	
+	stack = 100
+	ai_quality = { value = @cultural_maa_extra_ai_score }
+	icon = reiter
 }

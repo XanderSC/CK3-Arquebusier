@@ -166,12 +166,22 @@ innovation_arquebus = {
 			this = culture:scottish
 			this = culture:irish
 			this = culture:welsh
+
+			#Central Germanic Group
+			this = culture:swabian
+			this = culture:dutch
+			this = culture:bavarian
+			this = culture:franconian
 			
 			#Baltic Group
 			this = culture:czech
 			this = culture:polish
 			this = culture:lithuanian
 			this = culture:pommeranian
+
+			#East Slavic Group
+			this = culture:russian
+			this = culture:volhynian
 		}
 	}
 	
@@ -303,6 +313,62 @@ innovation_hussite_gunner = {
 	}
 
 	unlock_maa = hussite_gunner
+
+	flag = global_maa
+	flag = late_medieval_era_regular
+}
+
+innovation_pishchal = {
+	group = culture_group_military
+	culture_era = culture_era_late_medieval
+	icon = @arquebus_cultural
+	
+	potential = {
+		OR = {
+			this = culture:russian
+			this = culture:volhynian
+		}
+	}
+	
+	can_progress = {
+		required_year_greater_or_equal_trigger = { YEAR = 1350 }
+		has_innovation = innovation_handgonne
+	}
+	
+	modifier = {
+		men_at_arms_cap = 1
+	}
+
+	unlock_maa = pishchal
+
+	flag = global_maa
+	flag = late_medieval_era_regular
+}
+
+innovation_reiter = {
+	group = culture_group_military
+	culture_era = culture_era_late_medieval
+	icon = @arquebus_cultural
+	
+	potential = {
+		OR = {
+			this = culture:swabian
+			this = culture:dutch
+			this = culture:bavarian
+			this = culture:franconian
+		}
+	}
+	
+	can_progress = {
+		required_year_greater_or_equal_trigger = { YEAR = 1350 }
+		has_innovation = innovation_handgonne
+	}
+	
+	modifier = {
+		men_at_arms_cap = 1
+	}
+
+	unlock_maa = reiter
 
 	flag = global_maa
 	flag = late_medieval_era_regular
