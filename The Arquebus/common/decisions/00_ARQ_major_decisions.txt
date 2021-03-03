@@ -1,4 +1,54 @@
-﻿improve_the_arquebus_decision = {
+﻿seek_gunpowder_decision = {
+	picture = "gfx/interface/illustrations/decisions/decision_misc.dds"
+	major = yes
+	ai_check_interval = 120
+	desc = seek_gunpowder_decision_desc
+	selection_tooltip = seek_gunpowder_decision_tooltip
+
+	is_shown = {
+		is_ruler = yes
+		required_year_greater_or_equal_trigger = { YEAR = 1235 }
+		NOT = {  #Can only do it once.
+			is_target_in_global_variable_list = {
+				name = unavailable_unique_decisions
+				target = flag:flag_found_gunpowder
+			}
+		}
+	}
+	
+	cooldown = { days = 3650 }
+
+	is_valid = {
+		prestige_level >= 3
+	}
+
+	is_valid_showing_failures_only = {
+		is_available = yes
+		is_capable_adult = yes
+	}
+
+	effect = {
+		custom_tooltip = seek_gunpowder_event_tooltip
+		trigger_event = {
+			id = ARQ_main.0001
+			days = { 7 14 }
+		}
+	}
+
+	ai_potential = {
+		always = yes
+	}
+
+	ai_will_do = {
+		base = 50
+		ai_value_modifier = {
+			ai_energy = 0.5
+			ai_boldness = 0.25
+		}
+	}
+}
+
+improve_the_arquebus_decision = {
 	picture = "gfx/interface/illustrations/decisions/decision_misc.dds"
 	major = yes
 	ai_check_interval = 120
@@ -48,55 +98,7 @@
 		custom_tooltip = improve_the_arquebus_event_tooltip
 		trigger_event = {
 			id = ARQ_main.0010
-		}
-	}
-
-	ai_potential = {
-		always = yes
-	}
-
-	ai_will_do = {
-		base = 50
-		ai_value_modifier = {
-			ai_energy = 0.5
-			ai_boldness = 0.25
-		}
-	}
-}
-
-seek_gunpowder_decision = {
-	picture = "gfx/interface/illustrations/decisions/decision_misc.dds"
-	major = yes
-	ai_check_interval = 120
-	desc = seek_gunpowder_decision_desc
-	selection_tooltip = seek_gunpowder_decision_tooltip
-
-	is_shown = {
-		is_ruler = yes
-		required_year_greater_or_equal_trigger = { YEAR = 1215 }
-		NOT = {  #Can only do it once.
-			is_target_in_global_variable_list = {
-				name = unavailable_unique_decisions
-				target = flag:flag_found_gunpowder
-			}
-		}
-	}
-	
-	cooldown = { days = 3650 }
-
-	is_valid = {
-		prestige_level >= 3
-	}
-
-	is_valid_showing_failures_only = {
-		is_available = yes
-		is_capable_adult = yes
-	}
-
-	effect = {
-		custom_tooltip = seek_gunpowder_event_tooltip
-		trigger_event = {
-			id = ARQ_main.0001
+			days = { 7 14 }
 		}
 	}
 

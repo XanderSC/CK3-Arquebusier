@@ -226,7 +226,7 @@ ARQ_main.0004 = { #Alchemists/Scholars successfully produce gunpowder
 		hidden_effect = {
 			trigger_event = {
 				id = ARQ_main.0007
-				days = { 15 30 }
+				days = { 365 547 }
 			}
 		}
 
@@ -253,7 +253,7 @@ ARQ_main.0004 = { #Alchemists/Scholars successfully produce gunpowder
 		hidden_effect = {
 			trigger_event = {
 				id = ARQ_main.0007
-				days = { 15 30 }
+				days = { 365 547 }
 			}
 		}
 
@@ -288,7 +288,7 @@ ARQ_main.0005 = { #Send another Trade Mission to acquire more gunpowder
 		hidden_effect = {
 			trigger_event = {
 				id = ARQ_main.0006
-				days = { 60 120 }
+				days = { 365 547 }
 			}
 		}
 		
