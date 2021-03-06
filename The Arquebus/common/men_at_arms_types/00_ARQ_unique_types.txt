@@ -94,7 +94,7 @@ janissary = {
 	icon = janissary
 }
 
-tercio = {
+tercio = { #AKA The Spanish Third
 	type = arquebusiers
 
 	damage = 75
@@ -153,7 +153,7 @@ yeoman_arquebusier = {
 	icon = yeoman_arquebusier
 }
 
-hussite_gunner = {
+baltic_gunner = { #AKA Hussite Handgonners/Wagoncarts
 	type = arquebusiers
 
 	damage = 70
@@ -180,7 +180,7 @@ hussite_gunner = {
 	
 	stack = 100
 	ai_quality = { value = @cultural_maa_extra_ai_score }
-	icon = hussite_gunner
+	icon = baltic_gunner
 }
 
 pishchal = { #AKA Pishchal'niki

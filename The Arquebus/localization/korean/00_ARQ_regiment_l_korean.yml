@@ -12,7 +12,7 @@
  janissary:0 "예니체리"
  tercio:0 "테르시오스"
  yeoman_arquebusier:0 "예멘 화승총병"
- hussite_gunner:0 "발틱 총병"
+ baltic_gunner:0 "발틱 총병"
  pishchal:0 "피슈찰니키"
  reiter:0 "흑기병"
  
@@ -22,7 +22,7 @@
  janissary_flavor:1 "#F 예니체리는 화승총을 사용하는 오스만 제국의 경장갑 정예 총병입니다.#!."
  tercio_flavor:1 "#F 테르시오는 파이크병과 화승총병이 혼합된 구성의 연대입니다. 이 병력 조합은 그들을 전장에서 강력한 적으로 만듭니다.#!"
  yeoman_arquebusier_flavor:1 "#F 예멘 화승총병은 화승총을 사용하는 정예 총병입니다.#!"
- hussite_gunner_flavor:1 "#F 발틱 총병은 수레를 방어 수단으로 사용하며 화승총을 사용하는 경장갑 총병입니다.#!"
+ baltic_gunner_flavor:1 "#F 발틱 총병은 수레를 방어 수단으로 사용하며 화승총을 사용하는 경장갑 총병입니다.#!"
  pishchal_flavor:1 "#F 피슈찰니키는 아퀘버스의 독특한 파생품인 피슈찰을 사용하는 경장갑 총병입니다.#!"
  reiter_flavor:1 "#F 흑기병은 권총과 기병도로 무장한 기병입니다. 그들의 기동력은 그들을 전장에서 강력한 적으로 만듭니다.#!"
  

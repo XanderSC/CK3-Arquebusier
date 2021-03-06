@@ -102,7 +102,7 @@ culture_ai_weight_arquebusiers = {
 					has_innovation = innovation_janissary
 					has_innovation = innovation_tercio
 					has_innovation = innovation_yeoman_arquebusier
-					has_innovation = innovation_hussite_gunner
+					has_innovation = innovation_baltic_gunner
 					has_innovation = innovation_pishchal
 					has_innovation = innovation_reiter
 				}

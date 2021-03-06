@@ -122,7 +122,7 @@ innovation_yeoman_arquebusier = {
 }
 
 # BALTIC
-innovation_hussite_gunner = {
+innovation_baltic_gunner = {
 	group = culture_group_regional
 	culture_era = culture_era_late_medieval
 	icon = @arquebus_cultural
@@ -141,7 +141,7 @@ innovation_hussite_gunner = {
 		has_innovation = innovation_arquebus
 	}
 
-	unlock_maa = hussite_gunner
+	unlock_maa = baltic_gunner
 
 	flag = global_maa
 }

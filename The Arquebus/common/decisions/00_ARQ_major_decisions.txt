@@ -58,13 +58,7 @@ improve_the_arquebus_decision = {
 	is_shown = {
 		is_ruler = yes
 		culture = { 
-			OR = {
-				has_innovation = innovation_arquebus
-				has_innovation = innovation_janissary
-				has_innovation = innovation_tercio
-				has_innovation = innovation_yeoman_arquebusier
-				has_innovation = innovation_hussite_gunner
-			}
+			has_innovation = innovation_arquebus
 		}
 		NOT = {  #Can only do it once.
 			is_target_in_global_variable_list = {
@@ -79,13 +73,7 @@ improve_the_arquebus_decision = {
 	is_valid = {
 		prestige_level >= 3
 		culture = { 
-			OR = {
-				has_innovation = innovation_arquebus
-				has_innovation = innovation_janissary
-				has_innovation = innovation_tercio
-				has_innovation = innovation_yeoman_arquebusier
-				has_innovation = innovation_hussite_gunner
-			}
+			has_innovation = innovation_arquebus
 		}
 	}
 
