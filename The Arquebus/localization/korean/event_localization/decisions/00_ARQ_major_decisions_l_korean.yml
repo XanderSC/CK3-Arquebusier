@@ -1,0 +1,19 @@
+﻿l_korean:
+ # Translated by: CatsAreFluid
+ # ARQUEBUS IMPROVEMENT DECISION CHAIN #
+ improve_the_arquebus_decision:0 "화승총 개선"
+ improve_the_arquebus_decision_confirm:0 "당신의 무장관을 파견합니다."
+ improve_the_arquebus_decision_tooltip:0 "당신의 무장관에게 화승총을 개선할 것을 지시합니다."
+ improve_the_arquebus_decision_desc:0 "당신은 당신의 여러 영지와 해외로 당신의 무장관을 파견하여 숙련된 화승총 기술자를 찾을 것입니다."
+ 
+ # ARQUEBUS EVENT DECISION TOOLTIP
+ improve_the_arquebus_event_tooltip:0 "화승총을 개선할 때가 되었습니다."
+ 
+ # SEEK GUNPOWDER DECISION
+ seek_gunpowder_decision:0 "이국적인 상품 찾기"
+ seek_gunpowder_decision_confirm:0 "무역 사절단 파견"
+ seek_gunpowder_decision_tooltip:0 "당신의 가장 숙련된 상인은 이국적인 상품을 찾을 것입니다."
+ seek_gunpowder_decision_desc:0 "당신은 아직 발견하지 못한 희귀하거나 이국적인 물건을 찾기 위해 실크로드로 무역 사절단을 보낼 것입니다."
+
+ # SEEK GUNPOWDER DECISION TOOLTIP
+ seek_gunpowder_event_tooltip:0 "실크로드로 무역 사절단을 파견합니다. 그들이 돌아온다면 집사장이 유용할만한 물건을 조사할 것입니다."

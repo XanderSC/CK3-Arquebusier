@@ -1,0 +1,18 @@
+﻿l_korean:
+# Translated by: CatsAreFluid
+# GUNPOWDER GAME CONCEPTS
+
+ game_concept_gunpowder_buildings:0 "화약 건물"
+ game_concept_gunpowder_building_desc:0 "$game_concept_gunpowder_buildings$은 [holder|E]의 [arquebusiers|E]와 [field_weapons|E]의 성능을 향상시키는 [buildings|E]입니다. 또한, 화약 건물은 [holder|E]의 [levies|E]를 증가시킵니다."
+ game_concept_arquebusiers:0 "화승총병"
+ game_concept_arquebusiers_desc:0 "$game_concept_arquebusiers$은 화약을 이용한 강력한 원거리 무기를 사용하는 [men_at_arms|E]입니다.\n\n각 종류의 화승총병은 고유하며, 일반적으로 [heavy_infantry|E]와 [spearmen|E]에게 강하고, [heavy_cavalry|E]와 [light_cavalry|E]에게 약한 [counter|E]를 가집니다."
+ game_concept_field_weapons:0 "야전 무기"
+ game_concept_field_weapons_desc:0 "$game_concept_field_weapons$는 화약을 이용한 강력한 원거리 무기를 사용하는 [men_at_arms|E]입니다.\n\nWhile 각 종류의 화승총병은 고유하며,일반적으로 [heavy_infantry|E], [skirmishers|E], 그리고 [spearmen|E]에게 강하고, [heavy_cavalry|E]와 [light_cavalry|E]에게 약한 [counter|E]을 가집니다."
+ game_concept_gunpowder:0 "화약"
+ game_concept_gunpowder_desc:0 "$game_concept_gunpowder$은 탄약의 생산에 사용되는 화학적 자원입니다. 화기를 사용하는 모든 부대에 필수적입니다."
+ 
+ # GAME CONCEPT ALIASES
+ game_concept_gunpowder_building:0 "화약 무기"
+ game_concept_arquebusier:0 "화승총병"
+ game_concept_field_weapon:0 "야전 무기"
+ 

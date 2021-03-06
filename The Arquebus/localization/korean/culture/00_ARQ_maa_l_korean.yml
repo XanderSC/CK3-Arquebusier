@@ -1,0 +1,31 @@
+﻿l_korean:
+ # Translated by: CatsAreFluid
+ #Innovation Tooltip
+ unlock_late_medieval_gunpowder_buildings:0 "모든 중세 후기의 [gunpowder_buildings|E]를 잠금 해제하였습니다."
+
+ #Military
+ innovation_handgonne:0 "핸드건"
+ innovation_handgonne_desc:0 "극동 지역과의 수십 년이 넘는 거래 끝에 우리 문화는 드디어 이 희귀한 화학적 혼합물인 화약을 발견하였습니다. 우리는 핸드 건의 출현과 함께 전쟁에서 화약을 사용하기 위해 이를 성공적으로 관리해 냈습니다."
+ 
+ innovation_arquebus:0 "화승총"
+ innovation_arquebus_desc:0 "치명적인 원거리 무기인 핸드건이 우리의 무기고에 도입된 지 수년이 지났습니다. 그러나 병사들의 주요 요청을 반영하여 이 무기를 더욱 향상할 수 있습니다."
+ 
+ #Cultural Military
+ innovation_janissary:0 "충성스러운 전사들"
+ innovation_janissary_desc:0 "우리 영역의 귀족은 최근 수십 년 동안 너무 강해졌습니다. 우리 시대에 가장 충성스럽고 장비가 잘 갖추어진 헌신적인 전사를 모집하기 위해 노예 제도의 '쿨'시스템을 개편해야 할 때입니다."
+ 
+ innovation_tercio:0 "스페인 테르시오"
+ innovation_tercio_desc:0  "화승총의 사용은 최근 수많은 전투에서 이미 그 가치가 입증되었습니다. 우리는 병력의 3분의 1에게 이 새로운 무기를 지급함으로써 이 새로운 혁신을 신중하면서도 현대적인 군에 맞게 채택할 수 있습니다."
+ 
+ innovation_yeoman_arquebusier:0 "예멘 총병"
+ innovation_yeoman_arquebusier_desc:0 "화승총의 도입 덕분에 활의 시대는 희미 지고 있습니다. 그러나 예멘은 이미 그들이 숙련된 사수임을 입증했습니다. 아마도 그들의 기술을 이 새로운 무기에 적용 할 수 있지 않을까요?"
+ 
+ innovation_hussite_gunner:0 "불타는 전술"
+ innovation_hussite_gunner_desc:0 "너무 오랫동안 우리는 군사력 부족으로 인해 확장주의 야망의 불을 삭혀 왔습니다. 화약을 획득하고 이 화력을 대중의 손에 맡기는 것이 우리에게 도움이 될 것입니다."
+
+ innovation_pishchal:0 "피슈찰"
+ innovation_pishchal_desc:0 "핸드건의 발명 이후 우리는 화약 무기의 성능을 알게 되었습니다. 그것을 더욱 작게, 가볍게, 그리고 들고 다닐 수 있도록 만든다면 우리는 야전에서 커다란 이점을 가질 수 있을 것입니다."
+
+ innovation_reiter:0 "흑기병"
+ innovation_reiter_desc:0 "전장에서의 급격한 발전으로 우리는 우리의 경기병에게 더 작은 말과 권총, 그리고 경갑이 어울린다는 것을 알게 되었습니다. 이 흑기병은 어떤 적에게도 무시무시한 적입니다."
+ 

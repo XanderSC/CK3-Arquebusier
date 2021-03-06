@@ -29,7 +29,7 @@ handgonner = {
 	high_maintenance_cost = { gold = handgonne_high_maint_cost }
 	
 	stack = 100
-	ai_quality = { value = culture_ai_weight_archers }
+	ai_quality = { value = culture_ai_weight_arquebusiers }
 	icon = handgonner
 }
 
@@ -58,7 +58,7 @@ arquebusier = {
 	high_maintenance_cost = { gold = arquebusiers_high_maint_cost }
 	
 	stack = 100
-	ai_quality = { value = culture_ai_weight_archers }
+	ai_quality = { value = culture_ai_weight_arquebusiers }
 	icon = arquebusier
 }
 
@@ -97,8 +97,8 @@ janissary = {
 tercio = {
 	type = arquebusiers
 
-	damage = 70
-	toughness = 25
+	damage = 75
+	toughness = 20
 	pursuit = 0
 	screen = 5
 	
@@ -127,7 +127,7 @@ tercio = {
 yeoman_arquebusier = {
 	type = arquebusiers
 
-	damage = 70
+	damage = 75
 	toughness = 15
 	pursuit = 5
 	screen = 5
@@ -156,8 +156,8 @@ yeoman_arquebusier = {
 hussite_gunner = {
 	type = arquebusiers
 
-	damage = 60
-	toughness = 30
+	damage = 70
+	toughness = 25
 	pursuit = 0
 	screen = 5
 	
@@ -186,7 +186,7 @@ hussite_gunner = {
 pishchal = { #AKA Pishchal'niki
 	type = arquebusiers
 
-	damage = 70
+	damage = 75
 	toughness = 15
 	pursuit = 5
 	screen = 5
@@ -216,7 +216,7 @@ reiter = { #AKA Schwarze Reiter or 'Black Riders'
 	type = arquebusiers
 
 	damage = 75
-	toughness = 15
+	toughness = 10
 	pursuit = 15
 	screen = 0
 	

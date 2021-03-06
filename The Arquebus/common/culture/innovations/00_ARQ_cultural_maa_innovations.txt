@@ -1,0 +1,195 @@
+﻿#### Local Types ####
+@administration_1 = "gfx/interface/icons/culture_innovations/innovation_administration_01.dds"
+@administration_2 = "gfx/interface/icons/culture_innovations/innovation_administration_02.dds"
+@administration_3 = "gfx/interface/icons/culture_innovations/innovation_administration_03.dds"
+@civil_construction_1 = "gfx/interface/icons/culture_innovations/innovation_civil_construction_01.dds"
+@civil_construction_2 = "gfx/interface/icons/culture_innovations/innovation_civil_construction_02.dds"
+@leadership_1 = "gfx/interface/icons/culture_innovations/innovation_leadership_01.dds"
+@leadership_2 = "gfx/interface/icons/culture_innovations/innovation_leadership_02.dds"
+@raised_banner = "gfx/interface/icons/culture_innovations/innovation_raised_banner.dds"
+@fortifications = "gfx/interface/icons/culture_innovations/innovation_fortifications.dds"
+@siege_weapons = "gfx/interface/icons/culture_innovations/innovation_siege_weapons.dds"
+@levy_building = "gfx/interface/icons/culture_innovations/innovation_levy_building.dds"
+@maa_01 = "gfx/interface/icons/culture_innovations/innovation_maa_01.dds"
+@maa_02 = "gfx/interface/icons/culture_innovations/innovation_maa_02.dds"
+@weapons_and_armor_01 = "gfx/interface/icons/culture_innovations/innovation_weapons_and_armor_01.dds"
+@weapons_and_armor_02 = "gfx/interface/icons/culture_innovations/innovation_weapons_and_armor_02.dds"
+@knight = "gfx/interface/icons/culture_innovations/innovation_knight.dds"
+@majesty_01 = "gfx/interface/icons/culture_innovations/innovation_majesty_01.dds"
+@majesty_02 = "gfx/interface/icons/culture_innovations/innovation_majesty_02.dds"
+@majesty_03 = "gfx/interface/icons/culture_innovations/innovation_majesty_03.dds"
+@nobility_01 = "gfx/interface/icons/culture_innovations/innovation_nobility_01.dds"
+@nobility_02 = "gfx/interface/icons/culture_innovations/innovation_nobility_02.dds"
+@nobility_03 = "gfx/interface/icons/culture_innovations/innovation_nobility_03.dds"
+@nobility_04 = "gfx/interface/icons/culture_innovations/innovation_nobility_04.dds"
+@misc_inventions = "gfx/interface/icons/culture_innovations/innovation_misc_inventions.dds"
+
+@camel = "gfx/interface/icons/culture_innovations/innovation_camel.dds"
+@elephant = "gfx/interface/icons/culture_innovations/innovation_elephant.dds"
+@special_maa_01 = "gfx/interface/icons/culture_innovations/innovation_special_maa_01.dds"
+@special_maa_02 = "gfx/interface/icons/culture_innovations/innovation_special_maa_02.dds"
+
+@arquebus = "gfx/interface/icons/culture_innovations/innovation_arquebus.dds"
+@handgonne = "gfx/interface/icons/culture_innovations/innovation_handgonne.dds"
+@arquebus_cultural = "gfx/interface/icons/culture_innovations/innovation_arquebus_cultural.dds"
+
+### LATE MEDIEVAL ERA
+## culture_group_regional
+# TURKIC
+innovation_janissary = {
+	group = culture_group_regional
+	culture_era = culture_era_late_medieval
+	icon = @arquebus_cultural
+	
+	potential = {
+		OR = {
+			this = culture:turkish
+			this = culture:pecheneg
+			this = culture:shatuo
+			this = culture:ongud
+		}
+	}
+	
+	can_progress = {
+		required_year_greater_or_equal_trigger = { YEAR = 1350 }
+		has_innovation = innovation_arquebus
+	}
+
+	modifier = {
+		levy_reinforcement_rate_different_faith = 0.1
+	}
+
+	unlock_maa = janissary
+
+	flag = global_maa
+}
+
+# IBERIAN
+innovation_tercio = {
+	group = culture_group_regional
+	culture_era = culture_era_late_medieval
+	icon = @arquebus_cultural
+	
+	potential = {
+		OR = {
+			this = culture:basque
+			this = culture:castilian
+			this = culture:catalan
+			this = culture:aragonese
+			this = culture:portuguese
+		}
+	}
+	
+	can_progress = {
+		required_year_greater_or_equal_trigger = { YEAR = 1350 }
+		has_innovation = innovation_arquebus
+	}
+
+	maa_upgrade = {
+		type = pikemen
+		damage = 5
+		toughness = 10
+	}
+
+	unlock_maa = tercio
+
+	flag = global_maa
+}
+
+# WEST GERMANIC
+innovation_yeoman_arquebusier = {
+	group = culture_group_regional
+	culture_era = culture_era_late_medieval
+	icon = @arquebus_cultural
+	
+	potential = {
+		OR = {
+			this = culture:english
+			this = culture:scottish
+			this = culture:irish
+			this = culture:welsh
+		}
+	}
+	
+	can_progress = {
+		required_year_greater_or_equal_trigger = { YEAR = 1350 }
+		has_innovation = innovation_arquebus
+	}
+
+	unlock_maa = yeoman_arquebusier
+
+	flag = global_maa
+}
+
+# BALTIC
+innovation_hussite_gunner = {
+	group = culture_group_regional
+	culture_era = culture_era_late_medieval
+	icon = @arquebus_cultural
+	
+	potential = {
+		OR = {
+			this = culture:czech
+			this = culture:polish
+			this = culture:lithuanian
+			this = culture:pommeranian
+		}
+	}
+	
+	can_progress = {
+		required_year_greater_or_equal_trigger = { YEAR = 1350 }
+		has_innovation = innovation_arquebus
+	}
+
+	unlock_maa = hussite_gunner
+
+	flag = global_maa
+}
+
+# EAST SLAVIC
+innovation_pishchal = {
+	group = culture_group_regional
+	culture_era = culture_era_late_medieval
+	icon = @arquebus_cultural
+	
+	potential = {
+		OR = {
+			this = culture:russian
+			this = culture:volhynian
+		}
+	}
+	
+	can_progress = {
+		required_year_greater_or_equal_trigger = { YEAR = 1350 }
+		has_innovation = innovation_arquebus
+	}
+
+	unlock_maa = pishchal
+
+	flag = global_maa
+}
+
+# CENTRAL GERMANIC
+innovation_reiter = {
+	group = culture_group_regional
+	culture_era = culture_era_late_medieval
+	icon = @arquebus_cultural
+	
+	potential = {
+		OR = {
+			this = culture:swabian
+			this = culture:dutch
+			this = culture:bavarian
+			this = culture:franconian
+		}
+	}
+	
+	can_progress = {
+		required_year_greater_or_equal_trigger = { YEAR = 1350 }
+		has_innovation = innovation_arquebus
+	}
+
+	unlock_maa = reiter
+
+	flag = global_maa
+}

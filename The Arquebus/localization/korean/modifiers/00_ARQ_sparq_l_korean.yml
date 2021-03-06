@@ -1,0 +1,42 @@
+﻿l_korean:
+ # Translate by: CatsAreFluid
+ # ARQUEBUS IMPROVEMENT MODIFIERS
+ arquebus_fair_imp_modifier:0 "개선된 화승총"
+ arquebus_fair_imp_modifier_desc:1 "당신의 기술자들은 개머리판을 통해 화승총에 대한 실용적인 개선안을 제시했습니다. 이를 통해 화승총을 어깨에 장착 할 수 있습니다."
+ arquebus_good_imp_modifier:0 "세련된 화승총"
+ arquebus_good_imp_modifier_desc:1 "숙련된 장인이 화약을 혼합하고 화승총을 생산하는 독창적인 방법을 발명하여 전반적인 품질을 향상시켰습니다."
+ arquebus_excellent_imp_modifier:0 "매치락 화승총"
+ arquebus_excellent_imp_modifier_desc:1 "당신의 기술자들은 매치락을 추가하여 화승총을 휴대 가능한 무기로 개선하였습니다."
+ 
+ # ARQUEBUS IMPROVEMENT EVENT MODIFIERS
+ arquebus_employed_artificer_modifier:0 "고용된 최고의 기술자"
+ arquebus_employed_artificer_modifier_desc:1 "당신의 궁정에는 화승총을 개선할 최고의 기술자가 고용되어 있습니다."
+ arquebus_employed_locals_modifier:0 "고용된 지역 장인"
+ arquebus_employed_locals_modifier_desc:1 "당신은 화승총 개선 작업에 대부분의 현지 장인을 고용했습니다."
+ arquebus_normal_progress_modifier:0 "평균적인 진행"
+ arquebus_normal_progress_modifier_desc:1 "당신은 화승총 개선 작업에서 평균적인 성공을 거두고 있습니다."
+ arquebus_good_progress_modifier:0 "화승총 개선 작업 발전"
+ arquebus_good_progress_modifier_desc:1 "당신의 화승총 개선 작업은 중요한 획기적인 발전을 보였으며 귀중한 통찰력을 제공합니다."
+ arquebus_bad_progress_modifier:0 "화승총 개선 작업 좌절"
+ arquebus_bad_progress_modifier_desc:1 "당신의 화승총 개선 작업은 좌절될 위기에 처했습니다."
+ 
+ # ARQUEBUS REGIMENT MODIFIERS
+ arquebusiers_damage_add:1 "[arquebusier|E] [damage|E]"
+ arquebusiers_damage_mult:0 "$arquebusiers_damage_add$"
+ arquebusiers_toughness_add:1 "[arquebusier|E] [toughness|E]"
+ arquebusiers_toughness_mult:0 "$arquebusiers_toughness_add$"
+ arquebusiers_screen_add:1 "[arquebusier|E] [screen|E]"
+ arquebusiers_siege_value_add:1 "[arquebusier|E] [siege_progress|E]"
+ 
+ # FIELD WEAPON REGIMENT MODIFIERS
+ field_weapons_damage_add:1 "[field_weapon|E] [damage|E]"
+ field_weapons_damage_mult:0 "$field_weapons_damage_add$"
+ field_weapons_toughness_add:1 "[field_weapon|E] [toughness|E]"
+ field_weapons_toughness_mult:0 "$field_weapons_toughness_add$"
+ field_weapons_screen_add:1 "[field_weapon|E] [screen|E]"
+ field_weapons_siege_value_add:1 "[field_weapon|E] [siege_progress|E]"
+
+ # GUNPOWDER DISCOVERY MODIFIERS
+ gunpowder_local_materials_modifier:0 "현지 재료 사용"
+ gunpowder_local_materials_modifier_desc:0 "당신의 화승총 개선 작업은 현지에서 조달된 재료를 활용하고 있습니다."
+ 

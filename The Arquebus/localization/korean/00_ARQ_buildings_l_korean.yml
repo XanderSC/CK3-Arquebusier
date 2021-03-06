@@ -1,0 +1,15 @@
+﻿l_korean:
+# Translated by: CatsAreFluid
+# GUNPOWDER REGIMENT BUILDINGS
+
+ building_type_gunnery_range_01:0 "총기 훈련장"
+ building_type_gunnery_range_01_desc:1 "총기 훈련장은 사격 훈련을 위한 구역과 전투 훈련을 위한 넓은 땅으로 구성됩니다."
+ building_gunnery_range_01:1 "간단한 사격장"
+ building_gunnery_range_01_desc:1 "신병들이 안전하게 사격 훈련을 할 수 있는 인근 숲의 개간지입니다."
+ building_gunnery_range_02:1 "안전한 무기고"
+ building_gunnery_range_02_desc:2 "부지 내에 여러 대장간이 건설되어 화기의 유지관리를 담당합니다. 총기류는 안전한 보관실 안에 보관됩니다."
+ building_gunnery_range_03:1 "대대 숙소"
+ building_gunnery_range_03_desc:1 "부지를 확장함에 따라 신병들에게 숙소를 제공할 필요가 생겼습니다. 이 숙소는 모든 신병들에게 충분한 거주지를 제공할 것입니다."
+ building_gunnery_range_04:1 "확장된 사격장"
+ building_gunnery_range_04_desc:0 "$building_type_gunnery_range_01_desc$"
+ 

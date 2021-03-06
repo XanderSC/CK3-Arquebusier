@@ -17,10 +17,6 @@
 @archers_low_maint_cost = 0.2
 @archers_high_maint_cost = @[archers_low_maint_cost * high_maint_mult]
 
-@handgonne_recruitment_cost = 80
-@handgonne_low_maint_cost = 0.35
-@handgonne_high_maint_cost = @[handgonne_low_maint_cost * high_maint_mult]
-
 @pikemen_recruitment_cost = 75
 @pikemen_low_maint_cost = 0.3
 @pikemen_high_maint_cost = @[pikemen_low_maint_cost * high_maint_mult]
@@ -41,11 +37,77 @@
 @siege_weapons_low_maint_cost = 0.1
 @siege_weapons_high_maint_cost = @[siege_weapons_low_maint_cost * high_maint_mult]
 
-### Cultural MAA
+### ARQ MAA Values
+@handgonne_recruitment_cost = 90
+@handgonne_low_maint_cost = 0.3
+@handgonne_high_maint_cost = @[handgonne_low_maint_cost * high_maint_mult]
+
+@arquebusiers_recruitment_cost = 130
+@arquebusiers_low_maint_cost = 0.35
+@arquebusiers_high_maint_cost = @[arquebusiers_low_maint_cost * high_maint_mult]
+
+### Gunpowder MAA Costs
 handgonne_recruitment_cost = @[handgonne_recruitment_cost]
 handgonne_low_maint_cost = @[handgonne_low_maint_cost]
 handgonne_high_maint_cost = @[handgonne_high_maint_cost]
 
-arquebusiers_recruitment_cost = @[handgonne_recruitment_cost * 1.5]
-arquebusiers_low_maint_cost = @[handgonne_low_maint_cost * 1.5]
-arquebusiers_high_maint_cost = @[handgonne_high_maint_cost * 1.5]
+arquebusiers_recruitment_cost = @[arquebusiers_recruitment_cost]
+arquebusiers_low_maint_cost = @[arquebusiers_low_maint_cost]
+arquebusiers_high_maint_cost = @[arquebusiers_high_maint_cost]
+
+### Cultural MAA Costs
+
+### ARQ AI Weight Values
+culture_ai_weight_arquebusiers = {
+	value = 5
+	
+	if = { # Cultures that favours arquebusiers
+		limit = {
+			OR = {
+				culture_group = culture_group:west_germanic_group
+				culture_group = culture_group:central_germanic_group
+				culture_group = culture_group:iberian_group
+				culture_group = culture_group:turkic_group
+				culture_group = culture_group:baltic_group
+				culture_group = culture_group:east_slavic_group
+				culture_group = culture_group:latin_group
+			}
+		}
+		add = 40
+	}
+
+	if = { # Cultures that has bombards favours gunpowder armies
+		limit = {
+			culture = {
+				has_innovation = innovation_bombard
+			}
+		}
+		add = 5
+	}
+
+	if = { # Cultures that dislike arquebusiers
+		limit = {
+			OR = {
+				culture_group = culture_group:brythonic_group
+				culture_group = culture_group:frankish_group
+			}
+		}
+		add = -60
+	}
+	
+	if = { # Cultures with a special MaA of that type should avoid the base version of the unit
+		limit = {
+			culture = {
+				OR = {
+					has_innovation = innovation_janissary
+					has_innovation = innovation_tercio
+					has_innovation = innovation_yeoman_arquebusier
+					has_innovation = innovation_hussite_gunner
+					has_innovation = innovation_pishchal
+					has_innovation = innovation_reiter
+				}
+			}
+		}
+		add = -100
+	}
+}

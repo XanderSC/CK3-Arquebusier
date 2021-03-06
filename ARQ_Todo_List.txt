@@ -7,7 +7,7 @@
 
 This document is meant to serve as a list of what is to be prioritized in order to accomplish 'The Arquebus' goals.
 
-Currently, 'The Arquebus' is on version 'v1.6 - Sizzle' which was published on the github on '12/04/2020 @12:00PM EST'.
+Currently, 'The Arquebus' is on version 'v1.7 - Sizzle' which was published on the github on '03/05/2021 @08:00PM EST'.
 The next 'major' version is version 'v2.0 - Bang'.
 
 If an item has been accomplished it'll usually have an 'asterisk' at the end of its task in parentheses. If it hasn't been completed yet then the status will be indicated in parentheses instead.
