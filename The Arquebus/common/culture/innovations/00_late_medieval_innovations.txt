@@ -121,7 +121,7 @@ innovation_handgonne = {
 	custom = unlock_late_medieval_gunpowder_buildings
 	
 	can_progress = {
-		required_year_greater_or_equal_trigger = { YEAR = 1265 }
+		required_year_greater_or_equal_trigger = { YEAR = 1250 }
 		custom_description = {
 			text = "discovered_gunpowder"
 			is_target_in_global_variable_list = {
@@ -147,7 +147,7 @@ innovation_arquebus = {
 	icon = @arquebus
 	
 	can_progress = {
-		required_year_greater_or_equal_trigger = { YEAR = 1335 }
+		required_year_greater_or_equal_trigger = { YEAR = 1325 }
 		has_innovation = innovation_handgonne
 	}
 	

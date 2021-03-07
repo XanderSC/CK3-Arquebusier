@@ -24,7 +24,7 @@
  ARQ_main.0003.a.flavor:0 "We've gathered our best Alchemists for this task, put them to work."
 
  ARQ_main.0004.t:0 "Fruits of Labor"
- ARQ_main.0004.desc:0 "Placeholder."
+ ARQ_main.0004.desc:0 "Your Alchemists have returned to you after having spent some time tinkering with a formula for the [gunpowder|E] in your possession. They believe they've finally nailed the right combination and they're ready to begin production.\n\n"My liege, how would you like us to acquire the necessary materials we'll need for producing this black powder?" Asks one of the Alchemists before waiting for your response."
  ARQ_main.0004.a:0 "Utilize Local Materials"
  ARQ_main.0004.a.flavor:0 "We can collect whatever reagents are required from our local quarries and mines."
  ARQ_main.0004.b:0 "Import Necessary Materials"
@@ -35,8 +35,8 @@
  ARQ_main.0005.a:0 "Back to the Silk Road!"
  ARQ_main.0005.a.flavor:0 "With an ample supply of gold we can send our Traders back to acquire a large sum of gunpowder."
 
- ARQ_main.0006.t:0 "Artificia Exotica"
- ARQ_main.0006.desc:0 "Placeholder."
+ ARQ_main.0006.t:0 "Peculiar Arms Deal"
+ ARQ_main.0006.desc:0 "Many years have passed since you sent your Trade Delegation to the Silk Road on a mission to acquire [gunpowder|E]. You've begun to worry that they've run off with your gold and are off somewhere laughing about this mysterious "black powder".\n\nHowever, one day you receive a letter indicating that your delegation has finally found a reputable source from a local dealer. They write in their letter that the cost is fair, but the locals may be open to bartering, and await your response."
  ARQ_main.0006.a:0 "Strike the Deal"
  ARQ_main.0006.a.flavor:0 "The locals here have offered us a large sum of gunpowder for a reasonable cost, perhaps we should accept?"
  ARQ_main.0006.b:0 "Barter with the Locals"

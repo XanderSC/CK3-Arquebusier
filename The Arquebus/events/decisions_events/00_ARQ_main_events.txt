@@ -101,7 +101,7 @@ ARQ_main.0002 = { #Discovering Gunpowder - Plan
 		hidden_effect = {
 			trigger_event = {
 				id = ARQ_main.0003
-				days = { 15 30 }
+				days = { 90 120 }
 			}
 		}
 		
@@ -131,7 +131,7 @@ ARQ_main.0002 = { #Discovering Gunpowder - Plan
 		hidden_effect = {
 			trigger_event = {
 				id = ARQ_main.0005
-				days = { 15 30 }
+				days = { 90 120 }
 			}
 		}
 		
@@ -193,7 +193,7 @@ ARQ_main.0003 = { #Employing Alchemists to produce more gunpowder
 		hidden_effect = {
 			trigger_event = {
 				id = ARQ_main.0004
-				days = { 60 120 }
+				days = { 182 365 }
 			}
 		}
 		
@@ -226,7 +226,7 @@ ARQ_main.0004 = { #Alchemists/Scholars successfully produce gunpowder
 		hidden_effect = {
 			trigger_event = {
 				id = ARQ_main.0007
-				days = { 365 547 }
+				days = { 730 1095 }
 			}
 		}
 
@@ -253,7 +253,7 @@ ARQ_main.0004 = { #Alchemists/Scholars successfully produce gunpowder
 		hidden_effect = {
 			trigger_event = {
 				id = ARQ_main.0007
-				days = { 365 547 }
+				days = { 730 1095 }
 			}
 		}
 
@@ -288,7 +288,7 @@ ARQ_main.0005 = { #Send another Trade Mission to acquire more gunpowder
 		hidden_effect = {
 			trigger_event = {
 				id = ARQ_main.0006
-				days = { 365 547 }
+				days = { 730 1095 }
 			}
 		}
 		
@@ -326,7 +326,7 @@ ARQ_main.0006 = { #Trade Mission pays for large sum of gunpowder
 		hidden_effect = {
 			trigger_event = {
 				id = ARQ_main.0007
-				days = { 15 30 }
+				days = { 182 365 }
 			}
 		}
 
@@ -374,7 +374,7 @@ ARQ_main.0006 = { #Trade Mission pays for large sum of gunpowder
 		hidden_effect = {
 			trigger_event = {
 				id = ARQ_main.0007
-				days = { 15 30 }
+				days = { 182 365 }
 			}
 		}
 
