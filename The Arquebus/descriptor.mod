@@ -1,4 +1,4 @@
-version="1.7b"
+version="1.7c"
 tags={
 	"Warfare"
 	"Historical"
