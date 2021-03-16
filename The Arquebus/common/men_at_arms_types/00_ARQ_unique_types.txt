@@ -23,6 +23,11 @@ handgonner = {
 		pikemen = 1
 		heavy_infantry = 1
 	}
+
+	winter_bonus = {
+		normal_winter = { damage = -5 toughness = -2 }
+		harsh_winter = { damage = -10 toughness = -5 }
+	}
 	
 	buy_cost = { gold = handgonne_recruitment_cost }
 	low_maintenance_cost = { gold = handgonne_low_maint_cost }
@@ -51,6 +56,11 @@ arquebusier = {
 		archers = 1
 		pikemen = 1
 		heavy_infantry = 1
+	}
+
+	winter_bonus = {
+		normal_winter = { damage = -2 toughness = -1 }
+		harsh_winter = { damage = -5 toughness = -2 }
 	}
 	
 	buy_cost = { gold = arquebusiers_recruitment_cost }
@@ -84,6 +94,11 @@ janissary = {
 		skirmishers = 1
 		heavy_infantry = 1
 	}
+
+	winter_bonus = {
+		normal_winter = { damage = -2 toughness = -1 }
+		harsh_winter = { damage = -5 toughness = -2 }
+	}
 	
 	buy_cost = { gold = arquebusiers_recruitment_cost }
 	low_maintenance_cost = { gold = arquebusiers_low_maint_cost }
@@ -114,6 +129,11 @@ tercio = { #AKA The Spanish Third
 		heavy_infantry = 1
 		heavy_cavalry = 1
 	}
+
+	winter_bonus = {
+		normal_winter = { damage = -2 toughness = -1 }
+		harsh_winter = { damage = -5 toughness = -2 }
+	}
 	
 	buy_cost = { gold = arquebusiers_recruitment_cost }
 	low_maintenance_cost = { gold = arquebusiers_low_maint_cost }
@@ -142,6 +162,11 @@ yeoman_arquebusier = {
 		archers = 1
 		pikemen = 1
 		heavy_infantry = 1
+	}
+
+	winter_bonus = {
+		normal_winter = { damage = -2 toughness = -1 }
+		harsh_winter = { damage = -5 toughness = -2 }
 	}
 	
 	buy_cost = { gold = arquebusiers_recruitment_cost }
@@ -173,6 +198,11 @@ baltic_gunner = { #AKA Hussite Handgonners/Wagoncarts
 		pikemen = 1
 		skirmishers = 1
 	}
+
+	winter_bonus = {
+		normal_winter = { toughness = 5 }
+		harsh_winter = { toughness = 2 }
+	}
 	
 	buy_cost = { gold = arquebusiers_recruitment_cost }
 	low_maintenance_cost = { gold = arquebusiers_low_maint_cost }
@@ -202,6 +232,11 @@ pishchal = { #AKA Pishchal'niki
 		pikemen = 1
 		heavy_infantry = 1
 	}
+
+	winter_bonus = {
+		normal_winter = { damage = 1 toughness = 2 }
+		harsh_winter = { toughness = 5 }
+	}
 	
 	buy_cost = { gold = arquebusiers_recruitment_cost }
 	low_maintenance_cost = { gold = arquebusiers_low_maint_cost }
@@ -230,6 +265,11 @@ reiter = { #AKA Schwarze Reiter or 'Black Riders'
 		archers = 1
 		heavy_infantry = 1
 		skirmishers = 1
+	}
+
+	winter_bonus = {
+		normal_winter = { damage = -2 toughness = -1 }
+		harsh_winter = { damage = -5 toughness = -2 }
 	}
 	
 	buy_cost = { gold = arquebusiers_recruitment_cost }

@@ -25,7 +25,7 @@
 @heavy_infantry_low_maint_cost = 0.4
 @heavy_infantry_high_maint_cost = @[heavy_infantry_low_maint_cost * high_maint_mult]
 
-@light_cavalry_recruitment_cost = 95
+@light_cavalry_recruitment_cost = 85
 @light_cavalry_low_maint_cost = 0.35
 @light_cavalry_high_maint_cost = @[light_cavalry_low_maint_cost * high_maint_mult]
 
