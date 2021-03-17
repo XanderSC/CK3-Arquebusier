@@ -7,10 +7,6 @@
 gunnery_range_01 = {
 	construction_time = slow_construction_time
 
-	is_enabled = {
-		building_disable_if_vastly_over_domain_limit_trigger = yes
-	}
-
 	can_construct_potential = {
 		building_gunnery_range_requirement_terrain = yes
 	}
@@ -32,8 +28,8 @@ gunnery_range_01 = {
 	
 	character_modifier = {
 		men_at_arms_maintenance = -0.01
-		arquebusiers_toughness_mult = 0.01
-		#field_weapons_toughness_mult = 0.01
+		arquebusiers_toughness_mult = 0.02
+		#field_weapons_toughness_mult = 0.02
 		arquebusiers_damage_mult = 0.04
 		#field_weapons_damage_mult = 0.04
 	}
@@ -53,7 +49,8 @@ gunnery_range_01 = {
 	type_icon = "icon_building_gunnery_range.dds"
 	
 	ai_value = {
-		base = 100
+		base = 10
+		ai_general_building_modifier = yes
 		modifier = {
 			add = -99
 			has_building_or_higher = city_03
@@ -63,10 +60,6 @@ gunnery_range_01 = {
 
 gunnery_range_02 = {
 	construction_time = slow_construction_time
-
-	is_enabled = {
-		building_disable_if_vastly_over_domain_limit_trigger = yes
-	}
 
 	can_construct_potential = {
 		building_gunnery_range_requirement_terrain = yes
@@ -88,11 +81,11 @@ gunnery_range_02 = {
 	levy = normal_building_levy_tier_2
 	
 	character_modifier = {
-		men_at_arms_maintenance = -0.012
-		arquebusiers_toughness_mult = 0.025
-		#field_weapons_toughness_mult = 0.025
-		arquebusiers_damage_mult = 0.05
-		#field_weapons_damage_mult = 0.05
+		men_at_arms_maintenance = -0.01
+		arquebusiers_toughness_mult = 0.02
+		#field_weapons_toughness_mult = 0.02
+		arquebusiers_damage_mult = 0.04
+		#field_weapons_damage_mult = 0.04
 	}
 	
 	province_modifier = {
@@ -104,20 +97,17 @@ gunnery_range_02 = {
 		monthly_county_control_change_factor = 0.05
 		levy_size = 0.02
 	}
-	
+
 	next_building = gunnery_range_03
 	
 	ai_value = {
 		base = 9
+		ai_general_building_modifier = yes
 	}
 }
 
 gunnery_range_03 = {
 	construction_time = slow_construction_time
-
-	is_enabled = {
-		building_disable_if_vastly_over_domain_limit_trigger = yes
-	}
 
 	can_construct_potential = {
 		building_gunnery_range_requirement_terrain = yes
@@ -139,11 +129,11 @@ gunnery_range_03 = {
 	levy = normal_building_levy_tier_3
 	
 	character_modifier = {
-		men_at_arms_maintenance = -0.014
-		arquebusiers_toughness_mult = 0.025
-		#field_weapons_toughness_mult = 0.025
-		arquebusiers_damage_mult = 0.05
-		#field_weapons_damage_mult = 0.05
+		men_at_arms_maintenance = -0.02
+		arquebusiers_toughness_mult = 0.04
+		#field_weapons_toughness_mult = 0.04
+		arquebusiers_damage_mult = 0.08
+		#field_weapons_damage_mult = 0.08
 		knight_limit = 1
 	}
 	
@@ -161,15 +151,12 @@ gunnery_range_03 = {
 	
 	ai_value = {
 		base = 8
+		ai_general_building_modifier = yes
 	}
 }
 
 gunnery_range_04 = {
 	construction_time = slow_construction_time
-
-	is_enabled = {
-		building_disable_if_vastly_over_domain_limit_trigger = yes
-	}
 
 	can_construct_potential = {
 		building_gunnery_range_requirement_terrain = yes
@@ -191,11 +178,11 @@ gunnery_range_04 = {
 	levy = normal_building_levy_tier_4
 	
 	character_modifier = {
-		men_at_arms_maintenance = -0.016
-		arquebusiers_toughness_mult = 0.03
-		#field_weapons_toughness_mult = 0.03
-		arquebusiers_damage_mult = 0.075
-		#field_weapons_damage_mult = 0.075
+		men_at_arms_maintenance = -0.02
+		arquebusiers_toughness_mult = 0.04
+		#field_weapons_toughness_mult = 0.04
+		arquebusiers_damage_mult = 0.08
+		#field_weapons_damage_mult = 0.08
 		knight_limit = 1
 		army_maintenance_mult = -0.01
 	}
@@ -212,5 +199,6 @@ gunnery_range_04 = {
 	
 	ai_value = {
 		base = 7
+		ai_general_building_modifier = yes
 	}
 }
