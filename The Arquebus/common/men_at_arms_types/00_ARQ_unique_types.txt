@@ -42,12 +42,13 @@ arquebusier = {
 	type = arquebusiers
 
 	damage = 75
-	toughness = 15
+	toughness = 20
 	pursuit = 0
 	screen = 5
 	
 	terrain_bonus = {
 		hills = { damage = 5 toughness = 5 }
+		plains = { damage = 5 toughness = 5 }
 		forest = { damage = -5 toughness = -5 }
 		mountains = { damage = -5 toughness = -5 }
 	}
@@ -78,7 +79,7 @@ janissary = {
 	type = arquebusiers
 
 	damage = 80
-	toughness = 10
+	toughness = 15
 	pursuit = 5
 	screen = 5
 	
