@@ -1,0 +1,86 @@
+﻿#### Local Types ####
+@administration_1 = "gfx/interface/icons/culture_innovations/innovation_administration_01.dds"
+@administration_2 = "gfx/interface/icons/culture_innovations/innovation_administration_02.dds"
+@administration_3 = "gfx/interface/icons/culture_innovations/innovation_administration_03.dds"
+@civil_construction_1 = "gfx/interface/icons/culture_innovations/innovation_civil_construction_01.dds"
+@civil_construction_2 = "gfx/interface/icons/culture_innovations/innovation_civil_construction_02.dds"
+@leadership_1 = "gfx/interface/icons/culture_innovations/innovation_leadership_01.dds"
+@leadership_2 = "gfx/interface/icons/culture_innovations/innovation_leadership_02.dds"
+@raised_banner = "gfx/interface/icons/culture_innovations/innovation_raised_banner.dds"
+@fortifications = "gfx/interface/icons/culture_innovations/innovation_fortifications.dds"
+@siege_weapons = "gfx/interface/icons/culture_innovations/innovation_siege_weapons.dds"
+@levy_building = "gfx/interface/icons/culture_innovations/innovation_levy_building.dds"
+@maa_01 = "gfx/interface/icons/culture_innovations/innovation_maa_01.dds"
+@maa_02 = "gfx/interface/icons/culture_innovations/innovation_maa_02.dds"
+@weapons_and_armor_01 = "gfx/interface/icons/culture_innovations/innovation_weapons_and_armor_01.dds"
+@weapons_and_armor_02 = "gfx/interface/icons/culture_innovations/innovation_weapons_and_armor_02.dds"
+@knight = "gfx/interface/icons/culture_innovations/innovation_knight.dds"
+@hird = "gfx/interface/icons/culture_innovations/innovation_hird.dds"
+@longboats = "gfx/interface/icons/culture_innovations/innovation_longboats.dds"
+@majesty_01 = "gfx/interface/icons/culture_innovations/innovation_majesty_01.dds"
+@majesty_02 = "gfx/interface/icons/culture_innovations/innovation_majesty_02.dds"
+@majesty_03 = "gfx/interface/icons/culture_innovations/innovation_majesty_03.dds"
+@nobility_01 = "gfx/interface/icons/culture_innovations/innovation_nobility_01.dds"
+@nobility_02 = "gfx/interface/icons/culture_innovations/innovation_nobility_02.dds"
+@nobility_03 = "gfx/interface/icons/culture_innovations/innovation_nobility_03.dds"
+@nobility_04 = "gfx/interface/icons/culture_innovations/innovation_nobility_04.dds"
+@misc_inventions = "gfx/interface/icons/culture_innovations/innovation_misc_inventions.dds"
+
+@camel = "gfx/interface/icons/culture_innovations/innovation_camel.dds"
+@elephant = "gfx/interface/icons/culture_innovations/innovation_elephant.dds"
+@special_maa_01 = "gfx/interface/icons/culture_innovations/innovation_special_maa_01.dds"
+@special_maa_02 = "gfx/interface/icons/culture_innovations/innovation_special_maa_02.dds"
+
+@arquebus = "gfx/interface/icons/culture_innovations/innovation_arquebus.dds"
+@handgonne = "gfx/interface/icons/culture_innovations/innovation_handgonne.dds"
+@arquebus_cultural = "gfx/interface/icons/culture_innovations/innovation_arquebus_cultural.dds"
+
+#culture_group_military
+# Unique MaA Innovations
+innovation_handgonne = {
+	group = culture_group_military
+	culture_era = culture_era_late_medieval
+	icon = @handgonne
+	
+	custom = unlock_late_medieval_gunpowder_buildings
+	
+	can_progress = {
+		required_year_greater_or_equal_trigger = { YEAR = 1250 }
+		custom_description = {
+			text = "discovered_gunpowder"
+			is_target_in_global_variable_list = {
+				name = unavailable_unique_decisions
+				target = flag:flag_found_gunpowder
+			}
+		}
+	}
+
+	unlock_maa = handgonner
+	
+	modifier = {
+		men_at_arms_cap = 1
+	}
+
+	flag = global_maa
+	flag = late_medieval_era_regular
+}
+
+innovation_arquebus = {
+	group = culture_group_military
+	culture_era = culture_era_late_medieval
+	icon = @arquebus
+	
+	can_progress = {
+		required_year_greater_or_equal_trigger = { YEAR = 1325 }
+		has_innovation = innovation_handgonne
+	}
+	
+	modifier = {
+		men_at_arms_cap = 1
+	}
+
+	unlock_maa = arquebusier
+
+	flag = global_maa
+	flag = late_medieval_era_regular
+}
