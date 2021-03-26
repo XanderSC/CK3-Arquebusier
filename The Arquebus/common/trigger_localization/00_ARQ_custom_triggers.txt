@@ -1,16 +1,16 @@
 ﻿required_year = {
-	global = required_year_trigger
-	third = required_year_trigger
+	global = REQUIRED_YEAR
+	third = REQUIRED_YEAR
 }
 required_year_greater_or_equal = {
-	global = required_year_greater_or_equal_trigger
-	third = required_year_greater_or_equal_trigger
+	global = REQUIRED_YEAR_GREATER_OR_EQUAL
+	third = REQUIRED_YEAR_GREATER_OR_EQUAL
 }
 required_year_lesser_or_equal = {
-	global = required_year_lesser_or_equal_trigger
-	third = required_year_lesser_or_equal_trigger
+	global = REQUIRED_YEAR_LESSER_OR_EQUAL
+	third = REQUIRED_YEAR_LESSER_OR_EQUAL
 }
 discovered_gunpowder = {
-	global = discovered_gunpowder_trigger
-	third = discovered_gunpowder_trigger
+	global = DISCOVERED_GUNPOWDER
+	third = DISCOVERED_GUNPOWDER
 }

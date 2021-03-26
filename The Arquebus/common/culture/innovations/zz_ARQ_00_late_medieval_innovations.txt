@@ -53,6 +53,7 @@ innovation_handgonne = {
 				target = flag:flag_found_gunpowder
 			}
 		}
+		#discovered_gunpowder_trigger = yes
 	}
 
 	unlock_maa = handgonner

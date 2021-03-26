@@ -1,0 +1,20 @@
+﻿l_korean:
+
+ ### CUSTOM RULES/TRIGGERS/FLAGS
+ ## By: XanderSC
+ # Translated by: CatsAreFluid
+ 
+ # REQUIRED YEAR TRIGGER
+ REQUIRED_YEAR:0 "$VALUE|V0$년이어야 합니다."
+ NOT_REQUIRED_YEAR:0 "$VALUE|V0$년이 아니여야 합니다."
+ REQUIRED_YEAR_GREATER_OR_EQUAL:0 "$VALUE|V0$년 또는 이후여야 합니다."
+ NOT_REQUIRED_YEAR_GREATER_OR_EQUAL:0 "$VALUE|V0$년은 아직 요구되는 년도 또는 이후가 아닙니다."
+ REQUIRED_YEAR_LESSER_OR_EQUAL:0 "$VALUE|V0$년 또는 그 이전이어야 합니다."
+ NOT_REQUIRED_YEAR_LESSER_OR_EQUAL:0 "$VALUE|V0$년 또는 그 이전이 아닙니다."
+
+ # DISCOVERED GUNPOWDER TRIGGER
+ DISCOVERED_GUNPOWDER:0 "[CULTURE.GetName|U] 문화권이 [gunpowder|E]를 발견했습니다."
+ NOT_DISCOVERED_GUNPOWDER:0 "[CULTURE.GetName|U] 문화권이 아직 [gunpowder|E]를 발견하지 못했습니다."
+
+ # DISCOVERED GUNPOWDER FLAG
+ flag_found_gunpowder:0 "화약을 발견했습니다."
