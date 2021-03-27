@@ -46,14 +46,7 @@ innovation_handgonne = {
 	
 	can_progress = {
 		required_year_greater_or_equal_trigger = { YEAR = 1250 }
-		custom_description = {
-			text = "discovered_gunpowder"
-			is_target_in_global_variable_list = {
-				name = unavailable_unique_decisions
-				target = flag:flag_found_gunpowder
-			}
-		}
-		#discovered_gunpowder_trigger = yes
+		discovered_gunpowder_trigger = yes
 	}
 
 	unlock_maa = handgonner

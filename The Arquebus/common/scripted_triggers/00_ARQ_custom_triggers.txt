@@ -24,10 +24,13 @@ required_year_lesser_or_equal_trigger = {
 	}
 }
 
-# DISCOVERED GUNPOWDER TRIGGER
+## DISCOVERED GUNPOWDER TRIGGER
 discovered_gunpowder_trigger = {
 	custom_description = {
-		text = discovered_gunpowder
-		has_character_flag = flag_found_gunpowder
+		text = "discovered_gunpowder"
+		is_target_in_global_variable_list = {
+			name = unavailable_unique_decisions
+			target = flag:flag_found_gunpowder
+		}
 	}
 }
