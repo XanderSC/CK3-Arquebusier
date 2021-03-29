@@ -1,0 +1,20 @@
+﻿l_english:
+
+### MISC LOCALIZATION
+## By: XanderSC
+
+## CUSTOM TRIGGERS/EFFECTS/FLAGS
+# REQUIRED YEAR TRIGGER
+  REQUIRED_YEAR:0 "The required year is $VALUE|V0$"
+  NOT_REQUIRED_YEAR:0 "The required year isn't $VALUE|V0$"
+  REQUIRED_YEAR_GREATER_OR_EQUAL:0 "The required year is $VALUE|V0$ or greater"
+  NOT_REQUIRED_YEAR_GREATER_OR_EQUAL:0 "The required year isn't $VALUE|V0$ or greater"
+  REQUIRED_YEAR_LESSER_OR_EQUAL:0 "The required year is $VALUE|V0$ or lesser"
+  NOT_REQUIRED_YEAR_LESSER_OR_EQUAL:0 "The required year isn't $VALUE|V0$ or lesser"
+
+# DISCOVERED GUNPOWDER TRIGGER
+  DISCOVERED_GUNPOWDER:0 "The [CULTURE.GetName|U] culture has discovered [gunpowder|E]"
+  NOT_DISCOVERED_GUNPOWDER:0 "The [CULTURE.GetName|U] culture has not discovered [gunpowder|E]"
+
+# DISCOVERED GUNPOWDER FLAG
+  flag_found_gunpowder:0 "Discovered Gunpowder"

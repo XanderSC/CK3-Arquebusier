@@ -1,29 +1,32 @@
 ﻿l_english:
 
- #MaA types
- arquebusiers:2 "[arquebusiers|E]"
- field_weapons:2 "[field_weapons|E]"
+### REGIMENT LOCALIZATION
+## By: XanderSC
+
+#MaA types
+  arquebusiers:2 "[arquebusiers|E]"
+  field_weapons:2 "[field_weapons|E]"
  
- #Special MaA
- handgonner:0 "Handgonners"
- arquebusier:0 "Arquebusiers"
+#Special MaA
+  handgonner:0 "Handgonners"
+  arquebusier:0 "Arquebusiers"
  
- #Cultural MaA
- janissary:0 "Janissaries"
- tercio:0 "Tercios"
- yeoman_arquebusier:0 "Yeomen Arquebusiers"
- baltic_gunner:0 "Baltic Handgunners"
- pishchal:0 "Pishchal'niki"
- reiter:0 "Black Riders"
+#Cultural MaA
+  janissary:0 "Janissaries"
+  tercio:0 "Tercios"
+  yeoman_arquebusier:0 "Yeomen Arquebusiers"
+  baltic_gunner:0 "Baltic Handgunners"
+  pishchal:0 "Pishchal'niki"
+  reiter:0 "Black Riders"
  
- #MaA Descriptions
- handgonner_flavor:1 "#F Handgonners are light footmen wielding the primitive but deadly Handgonne, a precursor to the fearsome Arquebus.#!"
- arquebusier_flavor:1 "#F Arquebusiers are lightly-armored soldiers clad in half-plate wielding the rare Arquebus, a powerful weapon on the battlefield.#!"
- janissary_flavor:1 "#F Janissaries are elite, lightly-armored, soldiers of the Ottoman Empire. This regiment in particular wields the Arquebus in battle.#!."
- tercio_flavor:1 "#F Tercios are a regiment of mixed composition, mainly fielding Pikemen and Arquebusiers. This troop mixture makes them a powerful foe in combat.#!"
- yeoman_arquebusier_flavor:1 "#F Yeomen Arquebusiers are elite light footmen wielding the rare Arquebus, a powerful weapon on the battlefield.#!"
- baltic_gunner_flavor:1 "#F Baltic Handgunners are lightly-armored soldiers that utilize wagon carts as a defensive measure, wielding the deadly Arquebus.#!"
- pishchal_flavor:1 "#F Pishchal'niki are lightly-armored soldiers that have been trained in the use of the Pishchal, a unique variant of the Arquebus.#!"
- reiter_flavor:1 "#F Black Riders are armored cavalrymen that carry a combination of pistols and a sword. Their maneuverability makes them a deadly foe in combat.#!"
+#MaA Descriptions
+  handgonner_flavor:1 "#F Handgonners are light footmen wielding the primitive but deadly Handgonne, a precursor to the fearsome Arquebus.#!"
+  arquebusier_flavor:1 "#F Arquebusiers are lightly-armored soldiers clad in half-plate wielding the rare Arquebus, a powerful weapon on the battlefield.#!"
+  janissary_flavor:1 "#F Janissaries are elite, lightly-armored, soldiers of the Ottoman Empire. This regiment in particular wields the Arquebus in battle.#!."
+  tercio_flavor:1 "#F Tercios are a regiment of mixed composition, mainly fielding Pikemen and Arquebusiers. This troop mixture makes them a powerful foe in combat.#!"
+  yeoman_arquebusier_flavor:1 "#F Yeomen Arquebusiers are elite light footmen wielding the rare Arquebus, a powerful weapon on the battlefield.#!"
+  baltic_gunner_flavor:1 "#F Baltic Handgunners are lightly-armored soldiers that utilize wagon carts as a defensive measure, wielding the deadly Arquebus.#!"
+  pishchal_flavor:1 "#F Pishchal'niki are lightly-armored soldiers that have been trained in the use of the Pishchal, a unique variant of the Arquebus.#!"
+  reiter_flavor:1 "#F Black Riders are armored cavalrymen that carry a combination of pistols and a sword. Their maneuverability makes them a deadly foe in combat.#!"
  
  

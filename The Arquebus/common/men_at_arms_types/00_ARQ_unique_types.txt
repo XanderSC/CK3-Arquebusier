@@ -25,7 +25,7 @@ handgonner = {
 	}
 
 	winter_bonus = {
-		normal_winter = { damage = -5 toughness = -2 }
+		normal_winter = { damage = -5 toughness = -3 }
 		harsh_winter = { damage = -10 toughness = -5 }
 	}
 	
@@ -61,7 +61,7 @@ arquebusier = {
 
 	winter_bonus = {
 		normal_winter = { damage = -2 toughness = -1 }
-		harsh_winter = { damage = -5 toughness = -2 }
+		harsh_winter = { damage = -5 toughness = -3 }
 	}
 	
 	buy_cost = { gold = arquebusiers_recruitment_cost }
@@ -98,7 +98,7 @@ janissary = {
 
 	winter_bonus = {
 		normal_winter = { damage = -2 toughness = -1 }
-		harsh_winter = { damage = -5 toughness = -2 }
+		harsh_winter = { damage = -5 toughness = -3 }
 	}
 	
 	buy_cost = { gold = arquebusiers_recruitment_cost }
@@ -133,7 +133,7 @@ tercio = { #AKA The Spanish Third
 
 	winter_bonus = {
 		normal_winter = { damage = -2 toughness = -1 }
-		harsh_winter = { damage = -5 toughness = -2 }
+		harsh_winter = { damage = -5 toughness = -3 }
 	}
 	
 	buy_cost = { gold = arquebusiers_recruitment_cost }
@@ -167,7 +167,7 @@ yeoman_arquebusier = {
 
 	winter_bonus = {
 		normal_winter = { damage = -2 toughness = -1 }
-		harsh_winter = { damage = -5 toughness = -2 }
+		harsh_winter = { damage = -5 toughness = -3 }
 	}
 	
 	buy_cost = { gold = arquebusiers_recruitment_cost }
@@ -270,7 +270,7 @@ reiter = { #AKA Schwarze Reiter or 'Black Riders'
 
 	winter_bonus = {
 		normal_winter = { damage = -2 toughness = -1 }
-		harsh_winter = { damage = -5 toughness = -2 }
+		harsh_winter = { damage = -5 toughness = -3 }
 	}
 	
 	buy_cost = { gold = arquebusiers_recruitment_cost }

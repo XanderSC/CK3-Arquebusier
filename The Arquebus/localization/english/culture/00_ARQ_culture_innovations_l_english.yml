@@ -1,0 +1,34 @@
+﻿l_english:
+
+### INNOVATION LOCALIZATION
+## By: XanderSC
+
+#Innovation Tooltip
+  unlock_late_medieval_gunpowder_buildings:0 "Unlocks all Late Medieval Era [gunpowder_buildings|E]"
+
+#Military
+  innovation_handgonne:0 "Handgonne"
+  innovation_handgonne_desc:0 "After trading for decades with the Far East our culture has finally come across gunpowder, a rare chemical mixture. We have managed to successfully adapt this resource for use in war with the advent of the Handgonne."
+  
+  innovation_arquebus:0 "Arquebus"
+  innovation_arquebus_desc:0 "Many years have passed since the introduction of the Handgonne into our arsenal - a deadly ranged weapon. However, with the addition of key requests from our soldiers we can improve upon this concept further."
+ 
+#Cultural Military
+  innovation_janissary:0 "Janissaries"
+  innovation_janissary_desc:0 "Our institution of the Devshirme tax has given us an opportunity to create a new caste of the best soldiers. Raised as children to be come the best Warrior, the Janissary is our Elite Shock Troop in warfare."
+
+  innovation_tercio:0 "Tercios"
+  innovation_tercio_desc:0  "The use of the Arquebus has already proven its worth in numerous battles as of lately. We can carefully adopt this new innovation into our modernizing forces by introducing a third of our men to this new weapon."
+
+  innovation_yeoman_arquebusier:0 "Yeoman Arquebusiers"
+  innovation_yeoman_arquebusier_desc:0 "The age of the Longbow is fading, thanks to the introduction of the Arquebus. However our renowned Yeomen have already proven themselves to be skilled shots and we can potentially adapt them to a new form of warfare."
+
+  innovation_baltic_gunner:0 "Baltic Handgunners"
+  innovation_baltic_gunner_desc:0 "Our region has traditionally endured the brunt end of expansionist ambitions due to our lack of military capabilities. Recent advancements have given us an opportunity to start acquiring gunpowder to modernize our militaries capabilities."
+
+  innovation_pishchal:0 "Pishchal"
+  innovation_pishchal_desc:0 "With the creation of the Handgonne we have begun to understand the capabilities of gunpowder. The adaptation of such a weapon into a smaller, lighter, and carryable device would grant us a remarkable advantage in the field."
+
+  innovation_reiter:0 "Black Riders"
+  innovation_reiter_desc:0 "With the rapid advances in warfare recently we've begun to adapt our light cavalry to ride smaller horses, carry compact handgonnes known as pistols, and ride armored. These Schwarze Reiters, are a fearsome foe for any enemy."
+ 

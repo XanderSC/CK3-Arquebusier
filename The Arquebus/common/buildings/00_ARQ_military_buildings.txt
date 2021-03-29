@@ -114,9 +114,9 @@ gunnery_range_03 = {
 	}
 
 	can_construct = {
-		building_requirement_castle_city_church = { LEVEL = 04 }
+		building_requirement_castle_city_church = { LEVEL = 03 }
 		scope:holder.culture = {
-			has_innovation = innovation_arquebus
+			has_innovation = innovation_handgonne
 		}
 	}
 
@@ -163,9 +163,9 @@ gunnery_range_04 = {
 	}
 
 	can_construct = {
-		building_requirement_castle_city_church = { LEVEL = 04 }
+		building_requirement_castle_city_church = { LEVEL = 03 }
 		scope:holder.culture = {
-			has_innovation = innovation_arquebus
+			has_innovation = innovation_handgonne
 		}
 	}
 
@@ -196,9 +196,109 @@ gunnery_range_04 = {
 		monthly_county_control_change_factor = 0.05
 		levy_size = 0.02
 	}
+
+	next_building = gunnery_range_05
 	
 	ai_value = {
 		base = 7
+		ai_general_building_modifier = yes
+	}
+}
+
+gunnery_range_05 = {
+	construction_time = slow_construction_time
+
+	can_construct_potential = {
+		building_gunnery_range_requirement_terrain = yes
+	}
+
+	can_construct = {
+		building_requirement_castle_city_church = { LEVEL = 04 }
+		scope:holder.culture = {
+			has_innovation = innovation_arquebus
+		}
+	}
+
+	can_construct_showing_failures_only = {
+		building_requirement_tribal = no
+	}
+	
+	cost_gold = normal_building_tier_5_cost
+	
+	levy = normal_building_levy_tier_5
+	
+	character_modifier = {
+		men_at_arms_maintenance = -0.04
+		arquebusiers_toughness_mult = 0.06
+		#field_weapons_toughness_mult = 0.06
+		arquebusiers_damage_mult = 0.12
+		#field_weapons_damage_mult = 0.12
+		knight_limit = 2
+		army_maintenance_mult = -0.01
+	}
+	
+	province_modifier = {
+		levy_reinforcement_rate = 0.175
+		supply_limit = 750
+	}
+	
+	county_modifier = {
+		monthly_county_control_change_factor = 0.075
+		levy_size = 0.03
+	}
+
+	next_building = gunnery_range_06
+	
+	ai_value = {
+		base = 6
+		ai_general_building_modifier = yes
+	}
+}
+
+gunnery_range_06 = {
+	construction_time = slow_construction_time
+
+	can_construct_potential = {
+		building_gunnery_range_requirement_terrain = yes
+	}
+
+	can_construct = {
+		building_requirement_castle_city_church = { LEVEL = 04 }
+		scope:holder.culture = {
+			has_innovation = innovation_arquebus
+		}
+	}
+
+	can_construct_showing_failures_only = {
+		building_requirement_tribal = no
+	}
+	
+	cost_gold = normal_building_tier_6_cost
+	
+	levy = normal_building_levy_tier_6
+	
+	character_modifier = {
+		men_at_arms_maintenance = -0.04
+		arquebusiers_toughness_mult = 0.06
+		#field_weapons_toughness_mult = 0.06
+		arquebusiers_damage_mult = 0.12
+		#field_weapons_damage_mult = 0.12
+		knight_limit = 2
+		army_maintenance_mult = -0.02
+	}
+	
+	province_modifier = {
+		levy_reinforcement_rate = 0.2
+		supply_limit = 750
+	}
+	
+	county_modifier = {
+		monthly_county_control_change_factor = 0.1
+		levy_size = 0.05
+	}
+	
+	ai_value = {
+		base = 5
 		ai_general_building_modifier = yes
 	}
 }
