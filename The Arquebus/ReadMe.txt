@@ -4,7 +4,7 @@
 #   XanderSC  #
 ################
 
-# VERSION: "1.7a" #
+# VERSION: "1.9.1" #
 
 This modification was made for the simple purpose of introducing the late medieval era invention of the "Arquebus", which was first used in Europe and the Middle East by the Ottomans towards the middle part of the 15th century.
 
