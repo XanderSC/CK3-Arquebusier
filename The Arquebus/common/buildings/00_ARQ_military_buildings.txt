@@ -28,10 +28,10 @@ gunnery_range_01 = {
 	
 	character_modifier = {
 		men_at_arms_maintenance = -0.01
-		arquebusiers_toughness_mult = 0.02
-		#field_weapons_toughness_mult = 0.02
-		arquebusiers_damage_mult = 0.04
-		#field_weapons_damage_mult = 0.04
+		arquebusiers_toughness_mult = 0.04
+		field_weapons_toughness_mult = 0.04
+		arquebusiers_damage_mult = 0.08
+		field_weapons_damage_mult = 0.06
 	}
 	
 	province_modifier = {
@@ -82,10 +82,10 @@ gunnery_range_02 = {
 	
 	character_modifier = {
 		men_at_arms_maintenance = -0.01
-		arquebusiers_toughness_mult = 0.02
-		#field_weapons_toughness_mult = 0.02
-		arquebusiers_damage_mult = 0.04
-		#field_weapons_damage_mult = 0.04
+		arquebusiers_toughness_mult = 0.04
+		field_weapons_toughness_mult = 0.04
+		arquebusiers_damage_mult = 0.08
+		field_weapons_damage_mult = 0.06
 	}
 	
 	province_modifier = {
@@ -130,10 +130,10 @@ gunnery_range_03 = {
 	
 	character_modifier = {
 		men_at_arms_maintenance = -0.02
-		arquebusiers_toughness_mult = 0.04
-		#field_weapons_toughness_mult = 0.04
-		arquebusiers_damage_mult = 0.08
-		#field_weapons_damage_mult = 0.08
+		arquebusiers_toughness_mult = 0.08
+		field_weapons_toughness_mult = 0.06
+		arquebusiers_damage_mult = 0.16
+		field_weapons_damage_mult = 0.12
 		knight_limit = 1
 	}
 	
@@ -178,18 +178,18 @@ gunnery_range_04 = {
 	levy = normal_building_levy_tier_4
 	
 	character_modifier = {
-		men_at_arms_maintenance = -0.02
-		arquebusiers_toughness_mult = 0.04
-		#field_weapons_toughness_mult = 0.04
-		arquebusiers_damage_mult = 0.08
-		#field_weapons_damage_mult = 0.08
-		knight_limit = 1
 		army_maintenance_mult = -0.01
+		men_at_arms_maintenance = -0.02
+		arquebusiers_toughness_mult = 0.08
+		field_weapons_toughness_mult = 0.06
+		arquebusiers_damage_mult = 0.16
+		field_weapons_damage_mult = 0.12
+		knight_limit = 1
 	}
 	
 	province_modifier = {
 		levy_reinforcement_rate = 0.15
-		supply_limit = 750
+		supply_limit = 1000
 	}
 	
 	county_modifier = {
@@ -228,18 +228,18 @@ gunnery_range_05 = {
 	levy = normal_building_levy_tier_5
 	
 	character_modifier = {
-		men_at_arms_maintenance = -0.04
-		arquebusiers_toughness_mult = 0.06
-		#field_weapons_toughness_mult = 0.06
-		arquebusiers_damage_mult = 0.12
-		#field_weapons_damage_mult = 0.12
-		knight_limit = 2
 		army_maintenance_mult = -0.01
+		men_at_arms_maintenance = -0.04
+		arquebusiers_toughness_mult = 0.16
+		field_weapons_toughness_mult = 0.08
+		arquebusiers_damage_mult = 0.32
+		field_weapons_damage_mult = 0.16
+		knight_limit = 2
 	}
 	
 	province_modifier = {
 		levy_reinforcement_rate = 0.175
-		supply_limit = 750
+		supply_limit = 1250
 	}
 	
 	county_modifier = {
@@ -278,18 +278,18 @@ gunnery_range_06 = {
 	levy = normal_building_levy_tier_6
 	
 	character_modifier = {
-		men_at_arms_maintenance = -0.04
-		arquebusiers_toughness_mult = 0.06
-		#field_weapons_toughness_mult = 0.06
-		arquebusiers_damage_mult = 0.12
-		#field_weapons_damage_mult = 0.12
-		knight_limit = 2
 		army_maintenance_mult = -0.02
+		men_at_arms_maintenance = -0.04
+		arquebusiers_toughness_mult = 0.16
+		field_weapons_toughness_mult = 0.08
+		arquebusiers_damage_mult = 0.32
+		field_weapons_damage_mult = 0.16
+		knight_limit = 2
 	}
 	
 	province_modifier = {
 		levy_reinforcement_rate = 0.2
-		supply_limit = 750
+		supply_limit = 1500
 	}
 	
 	county_modifier = {

@@ -46,6 +46,10 @@
 @arquebusiers_low_maint_cost = 0.35
 @arquebusiers_high_maint_cost = @[arquebusiers_low_maint_cost * high_maint_mult]
 
+@field_weapons_recruitment_cost = 150
+@field_weapons_low_maint_cost = 0.4
+@field_weapons_high_maint_cost = @[field_weapons_low_maint_cost * high_maint_mult]
+
 ### Gunpowder MAA Costs
 handgonne_recruitment_cost = @[handgonne_recruitment_cost]
 handgonne_low_maint_cost = @[handgonne_low_maint_cost]
@@ -54,6 +58,10 @@ handgonne_high_maint_cost = @[handgonne_high_maint_cost]
 arquebusiers_recruitment_cost = @[arquebusiers_recruitment_cost]
 arquebusiers_low_maint_cost = @[arquebusiers_low_maint_cost]
 arquebusiers_high_maint_cost = @[arquebusiers_high_maint_cost]
+
+culverin_recruitment_cost = @[field_weapons_recruitment_cost * 1.5]
+culverin_low_maint_cost = @[field_weapons_low_maint_cost * 1.5]
+culverin_high_maint_cost = @[field_weapons_high_maint_cost * 1.5]
 
 ### Cultural MAA Costs
 
@@ -136,5 +144,38 @@ culture_ai_weight_arquebusiers = {
 			}
 		}
 		add = -100
+	}
+}
+
+culture_ai_weight_field_weapons = {
+	value = 20
+	
+	if = { # Culture groups that favours field weapons
+		limit = {
+			OR = {
+				culture = { has_cultural_pillar = heritage_turkic }
+				culture = { has_cultural_pillar = heritage_indo_aryan }
+				culture = { has_cultural_pillar = heritage_central_germanic }
+				culture = { has_cultural_pillar = heritage_west_germanic }
+				culture = { has_cultural_pillar = heritage_east_slavic }
+				culture = { has_cultural_pillar = heritage_west_slavic }
+				culture = { has_cultural_pillar = heritage_latin }
+				culture = { has_cultural_pillar = heritage_iberian }
+				culture = { has_cultural_pillar = heritage_frankish }
+			}
+		}
+		add = 10
+	}
+
+	if = { # Cultures that has handgonners/arquebusiers favours field weapons
+		limit = {
+			culture = {
+				OR = {
+					has_innovation = innovation_handgonne
+					has_innovation = innovation_arquebus
+				}
+			}
+		}
+		add = 10
 	}
 }

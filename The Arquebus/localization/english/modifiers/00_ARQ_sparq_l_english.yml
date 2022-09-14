@@ -29,7 +29,10 @@
   arquebusiers_toughness_add:1 "[arquebusier|E] [toughness|E]"
   arquebusiers_toughness_mult:0 "$arquebusiers_toughness_add$"
   arquebusiers_screen_add:1 "[arquebusier|E] [screen|E]"
+  arquebusiers_screen_mult:0 "$arquebusiers_screen_add$"
   arquebusiers_siege_value_add:1 "[arquebusier|E] [siege_progress|E]"
+  arquebusiers_siege_value_mult:0 "$arquebusiers_siege_value_add$"
+  arquebusiers_max_size_add:0 "Max Size of [arquebusier|E] [regiments|E]"
  
 # FIELD WEAPON REGIMENT MODIFIERS
   field_weapons_damage_add:1 "[field_weapon|E] [damage|E]"
@@ -37,7 +40,10 @@
   field_weapons_toughness_add:1 "[field_weapon|E] [toughness|E]"
   field_weapons_toughness_mult:0 "$field_weapons_toughness_add$"
   field_weapons_screen_add:1 "[field_weapon|E] [screen|E]"
+  field_weapons_screen_mult:0 "$field_weapons_screen_add$"
   field_weapons_siege_value_add:1 "[field_weapon|E] [siege_progress|E]"
+  field_weapons_siege_value_mult:0 "$field_weapons_siege_value_add$"
+  field_weapons_guards_max_size_add:0 "Max Size of [field_weapon|E] [regiments|E]"
 
 # GUNPOWDER DISCOVERY MODIFIERS
   gunpowder_local_materials_modifier:0 "Using Local Materials"

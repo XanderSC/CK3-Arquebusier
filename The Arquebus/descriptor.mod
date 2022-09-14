@@ -1,8 +1,8 @@
-version="1.9.1"
+version="1.9.4"
 tags={
 	"Warfare"
 	"Historical"
 }
 picture="thumbnail.png"
 name="The Arquebus"
-supported_version="1.5.*"
+supported_version="1.7.*"

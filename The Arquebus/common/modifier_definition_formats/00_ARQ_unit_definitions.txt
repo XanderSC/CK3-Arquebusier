@@ -1,0 +1,131 @@
+﻿arquebusiers_max_size_add = {
+	decimals = 0
+}
+
+arquebusiers_max_size_mult = {
+	decimals = 0
+	percent = yes
+}
+
+arquebusiers_siege_value_add = {
+	decimals = 1
+}
+
+arquebusiers_siege_value_mult = {
+	decimals = 0
+	percent = yes
+}
+
+arquebusiers_damage_add = {
+	decimals = 0
+}
+
+arquebusiers_damage_mult = {
+	decimals = 0
+	percent = yes
+}
+
+arquebusiers_toughness_add = {
+	decimals = 0
+}
+
+arquebusiers_toughness_mult = {
+	decimals = 0
+	percent = yes
+}
+
+arquebusiers_pursuit_add = {
+	decimals = 0
+}
+
+arquebusiers_pursuit_mult = {
+	decimals = 0
+	percent = yes
+}
+
+arquebusiers_screen_add = {
+	decimals = 0
+}
+
+arquebusiers_screen_mult = {
+	decimals = 0
+	percent = yes
+}
+
+arquebusiers_maintenance_mult = {
+	decimals = 0
+	color = bad
+	percent = yes
+}
+
+arquebusiers_recruitment_cost_mult = {
+	decimals = 0
+	color = bad
+	percent = yes
+}
+
+field_weapons_max_size_add = {
+	decimals = 0
+}
+
+field_weapons_max_size_mult = {
+	decimals = 0
+	percent = yes
+}
+
+field_weapons_siege_value_add = {
+	decimals = 1
+}
+
+field_weapons_siege_value_mult = {
+	decimals = 0
+	percent = yes
+}
+
+field_weapons_damage_add = {
+	decimals = 0
+}
+
+field_weapons_damage_mult = {
+	decimals = 0
+	percent = yes
+}
+
+field_weapons_toughness_add = {
+	decimals = 0
+}
+
+field_weapons_toughness_mult = {
+	decimals = 0
+	percent = yes
+}
+
+field_weapons_pursuit_add = {
+	decimals = 0
+}
+
+field_weapons_pursuit_mult = {
+	decimals = 0
+	percent = yes
+}
+
+field_weapons_screen_add = {
+	decimals = 0
+}
+
+field_weapons_screen_mult = {
+	decimals = 0
+	percent = yes
+}
+
+field_weapons_maintenance_mult = {
+	decimals = 0
+	color = bad
+	percent = yes
+}
+
+field_weapons_recruitment_cost_mult = {
+	decimals = 0
+	color = bad
+	percent = yes
+}

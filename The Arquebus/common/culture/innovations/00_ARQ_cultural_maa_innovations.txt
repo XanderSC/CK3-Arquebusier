@@ -33,7 +33,38 @@
 
 @arquebus = "gfx/interface/icons/culture_innovations/innovation_arquebus.dds"
 @handgonne = "gfx/interface/icons/culture_innovations/innovation_handgonne.dds"
+@culverin = "gfx/interface/icons/culture_innovations/innovation_culverin.dds"
 @arquebus_cultural = "gfx/interface/icons/culture_innovations/innovation_arquebus_cultural.dds"
+@rocketry = "gfx/interface/icons/culture_innovations/innovation_rocketry.dds"
+@firelance = "gfx/interface/icons/culture_innovations/innovation_firelance.dds"
+
+### HIGH MEDIEVAL ERA
+## culture_group_regional
+# CHINESE
+innovation_firelance = {
+	group = culture_group_regional
+	culture_era = culture_era_high_medieval
+	icon = @firelance
+
+	potential = {
+		OR = {
+			# Cultural Pillars
+			has_cultural_pillar = heritage_chinese
+
+			# Cultures
+			this = culture:han
+		}
+	}
+
+	can_progress = {
+		required_year_greater_or_equal_trigger = { YEAR = 1075 }
+	}
+
+	unlock_maa = firelancer
+
+	flag = global_regional
+	flag = global_maa
+}
 
 ### LATE MEDIEVAL ERA
 ## culture_group_regional
@@ -45,15 +76,36 @@ innovation_janissary = {
 	
 	potential = {
 		OR = {
+			# Cultural Pillars
+			has_cultural_pillar = heritage_turkic
+
+			# Cultures
 			this = culture:turkish
 			this = culture:pecheneg
 			this = culture:shatuo
 			this = culture:ongud
 		}
+		NOT = {
+			# Cultures
+			this = culture:cuman
+			this = culture:khazar
+			this = culture:bolghar
+			this = culture:bashkir
+			this = culture:avar
+			this = culture:karluk
+			this = culture:kimek
+			this = culture:kipchak
+			this = culture:laktan
+			this = culture:kirghiz
+			this = culture:uyghur
+			this = culture:yughur
+			this = culture:uriankhai
+			this = culture:chuvash
+		}
 	}
 	
 	can_progress = {
-		required_year_greater_or_equal_trigger = { YEAR = 1350 }
+		required_year_greater_or_equal_trigger = { YEAR = 1325 }
 		has_innovation = innovation_arquebus
 	}
 
@@ -63,6 +115,7 @@ innovation_janissary = {
 
 	unlock_maa = janissary
 
+	flag = global_regional
 	flag = global_maa
 }
 
@@ -74,16 +127,28 @@ innovation_tercio = {
 	
 	potential = {
 		OR = {
+			# Cultural Pillars
+			has_cultural_pillar = heritage_iberian
+
+			# Cultures
 			this = culture:basque
 			this = culture:castilian
 			this = culture:catalan
 			this = culture:aragonese
 			this = culture:portuguese
+			this = culture:asturleonese
+		}
+		NOT = {
+			# Cultures
+			this = culture:suebi
+			this = culture:visigothic
+			this = culture:galician
+			this = culture:andalusian
 		}
 	}
 	
 	can_progress = {
-		required_year_greater_or_equal_trigger = { YEAR = 1350 }
+		required_year_greater_or_equal_trigger = { YEAR = 1325 }
 		has_innovation = innovation_arquebus
 	}
 
@@ -95,10 +160,11 @@ innovation_tercio = {
 
 	unlock_maa = tercio
 
+	flag = global_regional
 	flag = global_maa
 }
 
-# WEST GERMANIC
+# WEST GERMANIC/GOIDELIC
 innovation_yeoman_arquebusier = {
 	group = culture_group_regional
 	culture_era = culture_era_late_medieval
@@ -106,24 +172,42 @@ innovation_yeoman_arquebusier = {
 	
 	potential = {
 		OR = {
+			# Cultural Pillars
+			has_cultural_pillar = heritage_west_germanic
+			has_cultural_pillar = heritage_goidelic
+			has_cultural_pillar = heritage_brythonic
+
+			# Cultures
 			this = culture:english
 			this = culture:scottish
 			this = culture:irish
 			this = culture:welsh
+			this = culture:cornish
+		}
+		NOT = {
+			# Cultures
+			this = culture:anglo_saxon
+			this = culture:old_saxon
+			this = culture:laktan
+			this = culture:gaelic
+			this = culture:pictish
+			this = culture:breton
+			this = culture:cumbrian
 		}
 	}
 	
 	can_progress = {
-		required_year_greater_or_equal_trigger = { YEAR = 1350 }
+		required_year_greater_or_equal_trigger = { YEAR = 1325 }
 		has_innovation = innovation_arquebus
 	}
 
 	unlock_maa = yeoman_arquebusier
 
+	flag = global_regional
 	flag = global_maa
 }
 
-# BALTIC
+# BALTIC/WEST SLAVIC
 innovation_baltic_gunner = {
 	group = culture_group_regional
 	culture_era = culture_era_late_medieval
@@ -131,20 +215,34 @@ innovation_baltic_gunner = {
 	
 	potential = {
 		OR = {
-			this = culture:czech
-			this = culture:polish
+			# Cultural Pillars
+			has_cultural_pillar = heritage_baltic
+			has_cultural_pillar = heritage_west_slavic
+
+			# Cultures
+			this = culture:prussian
 			this = culture:lithuanian
+			this = culture:polish
+			this = culture:czech
 			this = culture:pommeranian
+		}
+		NOT = {
+			# Cultures
+			this = culture:latgalian
+			this = culture:polabian
+			this = culture:slovien
+			this = culture:carantanian
 		}
 	}
 	
 	can_progress = {
-		required_year_greater_or_equal_trigger = { YEAR = 1350 }
+		required_year_greater_or_equal_trigger = { YEAR = 1325 }
 		has_innovation = innovation_arquebus
 	}
 
 	unlock_maa = baltic_gunner
 
+	flag = global_regional
 	flag = global_maa
 }
 
@@ -156,18 +254,28 @@ innovation_pishchal = {
 	
 	potential = {
 		OR = {
+			# Cultural Pillars
+			has_cultural_pillar = heritage_east_slavic
+
+			# Cultures
 			this = culture:russian
 			this = culture:volhynian
+		}
+		NOT = {
+			# Cultures
+			this = culture:ilmenian
+			this = culture:severian
 		}
 	}
 	
 	can_progress = {
-		required_year_greater_or_equal_trigger = { YEAR = 1350 }
+		required_year_greater_or_equal_trigger = { YEAR = 1325 }
 		has_innovation = innovation_arquebus
 	}
 
 	unlock_maa = pishchal
 
+	flag = global_regional
 	flag = global_maa
 }
 
@@ -179,19 +287,60 @@ innovation_reiter = {
 	
 	potential = {
 		OR = {
+			# Cultural Pillars
+			has_cultural_pillar = heritage_central_germanic
+
+			# Cultures
 			this = culture:swabian
 			this = culture:dutch
 			this = culture:bavarian
 			this = culture:franconian
 		}
+		NOT = {
+			# Cultures
+			this = culture:saxon
+			this = culture:frisian
+			this = culture:german
+		}
 	}
 	
 	can_progress = {
-		required_year_greater_or_equal_trigger = { YEAR = 1350 }
+		required_year_greater_or_equal_trigger = { YEAR = 1325 }
 		has_innovation = innovation_arquebus
 	}
 
 	unlock_maa = reiter
 
+	flag = global_regional
+	flag = global_maa
+}
+
+# CHINESE
+innovation_rocketry = {
+	group = culture_group_regional
+	culture_era = culture_era_late_medieval
+	icon = @rocketry
+
+	potential = {
+		OR = {
+			# Cultural Pillars
+			has_cultural_pillar = heritage_chinese
+
+			# Cultures
+			this = culture:han
+		}
+	}
+
+	can_progress = {
+		required_year_greater_or_equal_trigger = { YEAR = 1325 }
+	}
+
+	modifier = {
+		siege_weapon_siege_value_mult = 0.025
+	}
+
+	unlock_maa = waspnest
+
+	flag = global_regional
 	flag = global_maa
 }

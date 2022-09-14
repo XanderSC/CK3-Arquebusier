@@ -33,7 +33,10 @@
 
 @arquebus = "gfx/interface/icons/culture_innovations/innovation_arquebus.dds"
 @handgonne = "gfx/interface/icons/culture_innovations/innovation_handgonne.dds"
+@culverin = "gfx/interface/icons/culture_innovations/innovation_culverin.dds"
 @arquebus_cultural = "gfx/interface/icons/culture_innovations/innovation_arquebus_cultural.dds"
+@rocketry = "gfx/interface/icons/culture_innovations/innovation_rocketry.dds"
+@firelance = "gfx/interface/icons/culture_innovations/innovation_firelance.dds"
 
 #culture_group_military
 # Unique MaA Innovations
@@ -76,5 +79,21 @@ innovation_arquebus = {
 	unlock_maa = arquebusier
 
 	flag = global_maa
+	flag = late_medieval_era_regular
+}
+
+innovation_culverin = {
+	group = culture_group_military
+	culture_era = culture_era_late_medieval
+	icon = @culverin
+
+	can_progress = {
+		required_year_greater_or_equal_trigger = { YEAR = 1375 }
+		has_innovation = innovation_arquebus
+	}
+
+	unlock_maa = culverin
+
+	flag = global_regular
 	flag = late_medieval_era_regular
 }

@@ -1,16 +1,19 @@
-####################
-## ARQ TO-DO LIST ##
-####################
-##  Produced By:  ##
-##    XanderSC    ##
-####################
+##################
+## The Arquebus ##
+### TO-DO LIST ###
+##################
+## Produced By: ##
+###  XanderSC  ###
+##################
 
 This document is meant to serve as a list of what is to be prioritized in order to accomplish 'The Arquebus' goals.
 
 Currently, 'The Arquebus' is on version 'v1.7a - Sizzle' which was published on the github on '03/05/2021 @08:00PM EST'.
 The next 'major' version is version 'v2.0 - Bang'.
 
-If an item has been accomplished it'll usually have an 'asterisk' at the end of its task in parentheses. If it hasn't been completed yet then the status will be indicated in parentheses instead.
+If an item has been accomplished it'll usually be marked 'done' at the end of its task in parentheses. If it hasn't been completed yet then the status will be indicated in parentheses instead.
+
+If an item is tied to another task it will be marked as such in brackets. For example, Medium Priority tasks 1-3 are children of High Priority 3 so they are marked with a [HP3] prefix.
 
 If one or more 'High priority' tasks have been accomplished it will require a 'major' version (essentially 1.0, 2.0, etc.) iteration on the github. 'Medium priority' tasks will require a 'minor' version (0.1, 0.2, etc.) iteration on the github. 'Low priority' tasks can be grouped together for a 'patch' iteration (1.1a, 1.1b, etc.) on the github by item.
 
@@ -18,10 +21,10 @@ Always sign off on when uploading to the github!
 
 ## HIGH PRIORITY ##
 
-1. Add an event chain to acquire gunpowder as a prerequisite to unlocking the 'Arquebus'. (*)
-2. Add in a chain of buildings, the Gunnery Range, to improve all gunpowder type regiments with static bonuses. (*)
-3. 
-4. 
+1. Add an event chain to acquire gunpowder as a prerequisite to unlocking the 'Arquebus'. (Done)
+2. Add in a chain of buildings, the Gunnery Range, to improve all gunpowder type regiments with static bonuses. (Done)
+3. Add in a new set of unique cultural regiments. Refer to the Medium Priority tasks below and complete this task when all are done. (WIP)
+4. Add an event chain focused on the Chinese discovery and use of gunpowder for earlier start dates. (Scheduled)
 5. 
 6. 
 7. 
@@ -31,21 +34,21 @@ Always sign off on when uploading to the github!
 
 ## MEDIUM PRIORITY ##
 
-1. Add in a secondary "Field Weapon" regiment to flesh out type. (TO-DO)
-2. Add in Indian cultural gunpowder regiments. (TO-DO)
-3. Add in Asian/Mongolian cultural gunpowder regiments. (TO-DO)
-4. Move "Handgonne" and "Arquebus" innovations into Military Group, with required_year trigger as a prerequisite. (*)
-5. 
+1. [HP3] Create and balance 1 secondary "Field Weapon" regiment to flesh out type. (WIP)
+2. [HP3] Create and balance 2-3 Indian cultural gunpowder regiments. (WIP)
+3. [HP3] Create and balance 2 Asian/Mongolian cultural gunpowder regiments. (WIP)
+4. Move "Handgonne" and "Arquebus" innovations into Military Group, with required_year trigger as a prerequisite. (Done)
+5. [HP4] Create and balance 2-3 unique Chinese/Han cultural regiments. (Scheduled) - Han Rocket Cart/Fire Lancers
 6. 
 7. 
 8. 
 9. 
-10.  
+10.
 
 ## LOW PRIORITY ##
 
-1. Create Gunnery Range icon gfx. (WIP)
-2. 
+1. Create Gunnery Range icon gfx. (Done)
+2.
 3. 
 4. 
 5. 

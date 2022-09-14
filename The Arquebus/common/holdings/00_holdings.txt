@@ -94,6 +94,7 @@ church_holding = {
 		gunnery_range_01
 		
 		monastic_schools_01
+		megalith_01
 		
 		common_tradeport_01
 		hall_of_heroes_01
