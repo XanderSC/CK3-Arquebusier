@@ -19,7 +19,7 @@
   pishchal:0 "Pishchal'niki"
   reiter:0 "Black Riders"
   firelancer:0 "Firelancers"
-  waspnest:0 "Wasp's Nest"
+  waspnest:0 "Nest of Bees"
 
 #Special MaA
   culverin:0 "Culverins"
@@ -36,7 +36,7 @@
   pishchal_flavor:1 "#F Pishchal'niki are lightly-armored soldiers that have been trained in the use of the Pishchal, a unique variant of the Arquebus.#!"
   reiter_flavor:1 "#F Black Riders are armored cavalrymen that carry a combination of pistols and a sword. Their maneuverability makes them a deadly foe in combat.#!"
   firelancer_flavor:1 "#F Firelancers are light cavalry that carry an archaic but powerful weapon, the firelance. Their use of firearms makes them a fearsome enemy.#!"
-  waspnest_flavor:1 "#F Wasp's Nests are small hand-drawn carts loaded with dozens of tiny primitive rockets. Their ability to volley fire allows them to quickly eliminate targets.#!"
+  waspnest_flavor:1 "#F Nest of Bees are small hand-drawn carts loaded with dozens of tiny primitive rockets. Their ability to volley fire allows them to quickly eliminate targets.#!"
 
 #Special MaA Descriptions
   culverin_flavor:1 "#F Culverins are thin horse-drawn cannons that fire grapeshot to ravage enemy formations. They are highly effective against infantry.#!"
