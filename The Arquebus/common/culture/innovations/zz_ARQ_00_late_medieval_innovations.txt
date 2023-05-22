@@ -48,13 +48,12 @@ innovation_handgonne = {
 	custom = unlock_late_medieval_gunpowder_buildings
 	
 	can_progress = {
-		required_year_greater_or_equal_trigger = { YEAR = 1250 }
 		discovered_gunpowder_trigger = yes
 	}
 
 	unlock_maa = handgonner
 	
-	modifier = {
+	character_modifier = {
 		men_at_arms_cap = 1
 	}
 
@@ -72,7 +71,7 @@ innovation_arquebus = {
 		has_innovation = innovation_handgonne
 	}
 	
-	modifier = {
+	character_modifier = {
 		men_at_arms_cap = 1
 	}
 

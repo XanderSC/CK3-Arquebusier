@@ -109,7 +109,7 @@ innovation_janissary = {
 		has_innovation = innovation_arquebus
 	}
 
-	modifier = {
+	character_modifier = {
 		levy_reinforcement_rate_different_faith = 0.1
 	}
 
@@ -335,7 +335,7 @@ innovation_rocketry = {
 		required_year_greater_or_equal_trigger = { YEAR = 1325 }
 	}
 
-	modifier = {
+	character_modifier = {
 		siege_weapon_siege_value_mult = 0.025
 	}
 
