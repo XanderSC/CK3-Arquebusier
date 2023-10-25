@@ -8,59 +8,126 @@ arquebusiers_max_size_mult = {
 }
 
 arquebusiers_siege_value_add = {
+	prefix = MOD_SIEGE_PROGRESS_PREFIX
 	decimals = 1
 }
 
 arquebusiers_siege_value_mult = {
+	prefix = MOD_SIEGE_PROGRESS_PREFIX
 	decimals = 0
 	percent = yes
 }
 
 arquebusiers_damage_add = {
+	prefix = MOD_DAMAGE_PREFIX
 	decimals = 0
 }
 
 arquebusiers_damage_mult = {
+	prefix = MOD_DAMAGE_PREFIX
 	decimals = 0
 	percent = yes
 }
 
 arquebusiers_toughness_add = {
+	prefix = MOD_TOUGHNESS_PREFIX
 	decimals = 0
 }
 
 arquebusiers_toughness_mult = {
+	prefix = MOD_TOUGHNESS_PREFIX
 	decimals = 0
 	percent = yes
 }
 
 arquebusiers_pursuit_add = {
+	prefix = MOD_PURSUIT_PREFIX
 	decimals = 0
 }
 
 arquebusiers_pursuit_mult = {
+	prefix = MOD_PURSUIT_PREFIX
 	decimals = 0
 	percent = yes
 }
 
 arquebusiers_screen_add = {
+	prefix = MOD_SCREEN_PREFIX
 	decimals = 0
 }
 
 arquebusiers_screen_mult = {
+	prefix = MOD_SCREEN_PREFIX
 	decimals = 0
 	percent = yes
 }
 
 arquebusiers_maintenance_mult = {
-	decimals = 0
+	prefix = MOD_GOLD_PREFIX
+	decimals = 2
 	color = bad
 	percent = yes
 }
 
 arquebusiers_recruitment_cost_mult = {
-	decimals = 0
+	prefix = MOD_GOLD_PREFIX
+	decimals = 2
 	color = bad
+	percent = yes
+}
+
+stationed_arquebusiers_damage_add = {
+	prefix = MOD_DAMAGE_PREFIX
+	decimals = 0
+}
+
+stationed_arquebusiers_damage_mult = {
+	prefix = MOD_DAMAGE_PREFIX
+	decimals = 0
+	percent = yes
+}
+
+stationed_arquebusiers_toughness_add = {
+	prefix = MOD_TOUGHNESS_PREFIX
+	decimals = 0
+}
+
+stationed_arquebusiers_toughness_mult = {
+	prefix = MOD_TOUGHNESS_PREFIX
+	decimals = 0
+	percent = yes
+}
+
+stationed_arquebusiers_pursuit_add = {
+	prefix = MOD_PURSUIT_PREFIX
+	decimals = 0
+}
+
+stationed_arquebusiers_pursuit_mult = {
+	prefix = MOD_PURSUIT_PREFIX
+	decimals = 0
+	percent = yes
+}
+
+stationed_arquebusiers_screen_add = {
+	prefix = MOD_SCREEN_PREFIX
+	decimals = 0
+}
+
+stationed_arquebusiers_screen_mult = {
+	prefix = MOD_SCREEN_PREFIX
+	decimals = 0
+	percent = yes
+}
+
+stationed_arquebusiers_siege_value_add = {
+	prefix = MOD_SIEGE_PROGRESS_PREFIX
+	decimals = 1
+}
+
+stationed_arquebusiers_siege_value_mult = {
+	prefix = MOD_SIEGE_PROGRESS_PREFIX
+	decimals = 0
 	percent = yes
 }
 
@@ -74,58 +141,125 @@ field_weapons_max_size_mult = {
 }
 
 field_weapons_siege_value_add = {
+	prefix = MOD_SIEGE_PROGRESS_PREFIX
 	decimals = 1
 }
 
 field_weapons_siege_value_mult = {
+	prefix = MOD_SIEGE_PROGRESS_PREFIX
 	decimals = 0
 	percent = yes
 }
 
 field_weapons_damage_add = {
+	prefix = MOD_DAMAGE_PREFIX
 	decimals = 0
 }
 
 field_weapons_damage_mult = {
+	prefix = MOD_DAMAGE_PREFIX
 	decimals = 0
 	percent = yes
 }
 
 field_weapons_toughness_add = {
+	prefix = MOD_TOUGHNESS_PREFIX
 	decimals = 0
 }
 
 field_weapons_toughness_mult = {
+	prefix = MOD_TOUGHNESS_PREFIX
 	decimals = 0
 	percent = yes
 }
 
 field_weapons_pursuit_add = {
+	prefix = MOD_PURSUIT_PREFIX
 	decimals = 0
 }
 
 field_weapons_pursuit_mult = {
+	prefix = MOD_PURSUIT_PREFIX
 	decimals = 0
 	percent = yes
 }
 
 field_weapons_screen_add = {
+	prefix = MOD_SCREEN_PREFIX
 	decimals = 0
 }
 
 field_weapons_screen_mult = {
+	prefix = MOD_SCREEN_PREFIX
 	decimals = 0
 	percent = yes
 }
 
 field_weapons_maintenance_mult = {
-	decimals = 0
+	prefix = MOD_GOLD_PREFIX
+	decimals = 2
 	color = bad
 	percent = yes
 }
 
 field_weapons_recruitment_cost_mult = {
-	decimals = 0
+	prefix = MOD_GOLD_PREFIX
+	decimals = 2
 	color = bad
+	percent = yes
+}
+
+stationed_field_weapons_damage_add = {
+	prefix = MOD_DAMAGE_PREFIX
+	decimals = 0
+}
+
+stationed_field_weapons_damage_mult = {
+	prefix = MOD_DAMAGE_PREFIX
+	decimals = 0
+	percent = yes
+}
+
+stationed_field_weapons_toughness_add = {
+	prefix = MOD_TOUGHNESS_PREFIX
+	decimals = 0
+}
+
+stationed_field_weapons_toughness_mult = {
+	prefix = MOD_TOUGHNESS_PREFIX
+	decimals = 0
+	percent = yes
+}
+
+stationed_field_weapons_pursuit_add = {
+	prefix = MOD_PURSUIT_PREFIX
+	decimals = 0
+}
+
+stationed_field_weapons_pursuit_mult = {
+	prefix = MOD_PURSUIT_PREFIX
+	decimals = 0
+	percent = yes
+}
+
+stationed_field_weapons_screen_add = {
+	prefix = MOD_SCREEN_PREFIX
+	decimals = 0
+}
+
+stationed_field_weapons_screen_mult = {
+	prefix = MOD_SCREEN_PREFIX
+	decimals = 0
+	percent = yes
+}
+
+stationed_field_weapons_siege_value_add = {
+	prefix = MOD_SIEGE_PROGRESS_PREFIX
+	decimals = 1
+}
+
+stationed_field_weapons_siege_value_mult = {
+	prefix = MOD_SIEGE_PROGRESS_PREFIX
+	decimals = 0
 	percent = yes
 }

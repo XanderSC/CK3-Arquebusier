@@ -33,6 +33,16 @@
   arquebusiers_siege_value_add:1 "[arquebusier|E] [siege_progress|E]"
   arquebusiers_siege_value_mult:0 "$arquebusiers_siege_value_add$"
   arquebusiers_max_size_add:0 "Max Size of [arquebusier|E] [regiments|E]"
+  stationed_arquebusiers_damage_add:0 "[stationed|E] [arquebusier|E] [damage|E]"
+  stationed_arquebusiers_damage_mult:0 "$stationed_arquebusiers_damage_add$"
+  stationed_arquebusiers_toughness_add:0 "[stationed|E] [arquebusier|E] [toughness|E]"
+  stationed_arquebusiers_toughness_mult:0 "$stationed_arquebusiers_toughness_add$"
+  stationed_arquebusiers_pursuit_add:0 "[stationed|E] [arquebusier|E] [pursuit|E]"
+  stationed_arquebusiers_pursuit_mult:0 "$stationed_arquebusiers_pursuit_add$"
+  stationed_arquebusiers_screen_add:0 "[stationed|E] [arquebusier|E] [screen|E]"
+  stationed_arquebusiers_screen_mult:0 "$stationed_arquebusiers_screen_add$"
+  stationed_arquebusiers_siege_value_add:0 "[stationed|E] [arquebusier|E] [siege_progress|E]"
+  stationed_arquebusiers_siege_value_mult:0 "$stationed_arquebusiers_siege_value_add$"
  
 # FIELD WEAPON REGIMENT MODIFIERS
   field_weapons_damage_add:1 "[field_weapon|E] [damage|E]"
@@ -44,6 +54,16 @@
   field_weapons_siege_value_add:1 "[field_weapon|E] [siege_progress|E]"
   field_weapons_siege_value_mult:0 "$field_weapons_siege_value_add$"
   field_weapons_guards_max_size_add:0 "Max Size of [field_weapon|E] [regiments|E]"
+  stationed_field_weapons_damage_add:0 "[stationed|E] [field_weapon|E] [damage|E]"
+  stationed_field_weapons_damage_mult:0 "$stationed_field_weapons_damage_add$"
+  stationed_field_weapons_toughness_add:0 "[stationed|E] [field_weapon|E] [toughness|E]"
+  stationed_field_weapons_toughness_mult:0 "$stationed_field_weapons_toughness_add$"
+  stationed_field_weapons_pursuit_add:0 "[stationed|E] [field_weapon|E] [pursuit|E]"
+  stationed_field_weapons_pursuit_mult:0 "$stationed_field_weapons_pursuit_add$"
+  stationed_field_weapons_screen_add:0 "[stationed|E] [field_weapon|E] [screen|E]"
+  stationed_field_weapons_screen_mult:0 "$stationed_field_weapons_screen_add$"
+  stationed_field_weapons_siege_value_add:0 "[stationed|E] [field_weapon|E] [siege_progress|E]"
+  stationed_field_weapons_siege_value_mult:0 "$stationed_field_weapons_siege_value_add$"
 
 # GUNPOWDER DISCOVERY MODIFIERS
   gunpowder_local_materials_modifier:0 "Using Local Materials"
